@@ -1,4 +1,6 @@
 aorsAbstracts
+*.Rproj
+*.pdf
 
 # History files
 .Rhistory
