@@ -1,0 +1,101 @@
+                                 AMSAA OPSEC COO RD INA TION FORM
+   Title:       Off Platform Test Support Usage                          Author(s):      Ashley Brown
+   Type of Format:            I       x Document       D CD/Disk         Date: 16-29-16           I Phone: I :~ 027870
+   Method of Release (Check Type of Release):
+            x Abstract                 I D Briefing I D Publication I D Web Posting I                      0 Other
+   Purpose for Release:                                             Date of Release or Presentation:
+   AORS 2016 Abstract Submission Form                                7-8-16
+   Pro2ram Manager Approval Required: (Check One)                    DYES                               XNO
+                                             OPSEC Technical Reviewer ffiranch Chief)
+   Office: I AMSAA/LAD/LRAB                                                Ofc Symbol: I AMXAA-LC
+   Name                                                      Date          Approval Decision: (Check One)
+   Kevin E. Shorter                                          30 Jun 16     ~CONCUR               0 NONCONCUR
+      Intended Distribution is Statement A, aooroved for Public Release - Distribution is Unlimited
+   I certify that I am technically knowledgeable to review and approve the release of the information contained in
+   the enclosed format . I fully understand the threat connected with open source publications from hostile
+   intelligence sources and, in my judgment, the benefits of the release outweighs the potential damage to the
+   essential secrecy of the item in question. I, therefore, conclude that it is in the best interest of AMSAA, AMC,
+   Anny or other DoD programs to release this information into the public domain.
+                                    Reviewer's Signature--
+                                                             ~ r~
+                                                    Pro2ram Mana2er's Review
+   Name                                                      Date        I Aooroval Decision:      (Check One)
+                                                                         I D CONCUR               D NONCONCUR
+                                            PM's Signature--
+   Name                                                                         roval Decision: Check One
+                                                                                ONCUR             D NONCONCUR
+                                           PAO's Signature--
+                                                      OPSEC Officer Review
+AMSAA Fonn 74-R (24 January 2011)
+Previous editions of this fonn are obsolete
+
+                                               54th AORS 2016
+                              ABSTRACT SUBMISSION FORM
+Abstracts must be approved for public release or release to the foreign governments of
+Australia, Canada, France, Germany, the Netherlands, New Zealand, the Republic of Korea, and
+the United Kingdom.
+NOTE: It is the responsibility of the corresponding author to obtain the required release
+authority from their respective Foreign Disclosure Officer (FOO).
+Please email the completed and certified abstract submission form to the AORS Mailbox not
+later than 15 July 2016.
+                                     Security Classification: UNCLASSIFIED
+   Abstract:
+   Title: Off Platform Test Support Usage
+   Keywords : Test Support Usage
+   Recommended Working Group Session(s):              Sustainment
+   Corresponding Author:
+   Last :  Brown                    First : Ashley                      Org: AMSAA
+   Street: 392 Hopkins Rd
+   City:    APG                               State: MD          Zip : 21005        Country: USA
+   Phone Comm : 410-278-7052                  Fax Comm:
+   Phone DSN :                                Fax DSN :
+   Email: ashley.m.brown149.civ@mail.mil
+   Additional Authors:
+   Last:                            First :                             Org:
+   Last :                           First :                             Org:
+   Last :                           First :                             Org:
+   Sponsor (for Contractors only):
+   Printed Name:                                                        Org:
+   Signature:
+   FOO Certification: I certify that this abstract has been reviewed and is (select one) :
+   0approved for public release.
+   Oreleasable to these countries:
+   Printed Name:      -:J(..{_o., -~ -r:=>a*tr J, "' o Jc..
+   Signature :        ~~
+                         /
+                                            &      I ,. ,T--, JJ                  Date:   'J, )~,/d-OIC...
+
+                                             UNCLASSIFIED
+ Abstract:
+Computerized Optimization Model for Predicting and Analyzing Support Structures (COMPASS) is
+generally used to generate a Level of Repair Analysis (LORA). The objectives of this analysis were
+to: capture test equipment usage between alternative maintenance concepts; and establish an
+alternative methodology of COMPASS use by evaluating the cost and usage of test equipment.
+AMSAA was requested by Program Manager (PM) of Armored Brigade Combat Team (ABCT) to
+provide a comprehensive optimized supportability/maintainability assessment that addressed the
+maintenance and logistics issues associated with transitioning Abrams tanks from the SEPv2 to
+SEPv3. The effort focused on the maintenance and supportability of specific legacy, common ,
+redesigned and newly designed Class IX electronic Line Replaceable Units (LRU) and Line
+Replaceable Modules (LRM) that define both SEPv2 and SEPv3 platform configurations. This effort
+provided an economic assessment of the diagnostic screening of the LRUs/LRMs at different repair
+locations with future off-platform test support equipment.
+Off platform test equipment was analyzed using the COMPASS model developed and maintained by
+the United States Army Material Command Logistics Support Activity (USAMC LOGSA).
+COMPASS is the Army's standard model for performing a LORA. Three scenarios were evaluated
+for the SEPv3 LORA. The first scenario (base case) was a PM defined combination of contractor
+and organic repair. There are three LRUs that were potential candidates for off-platform test
+support. The remaining 22 electronic LRUs/LRMs were assumed contractor supported. The Base
+case reflected three organic LRU repair and 22 contractor supported LRUs/LRMs scenario. The
+second scenario was fully contractor supported. This scenario did not utilize off-platform test support
+because all repairs were performed by the contractor. The third scenario reflected the optimized
+maintenance concept generated from COMPASS. The three LRUs that were potential candidates
+for off-platform test support followed the most-economical maintenance concept. The remaining 22
+LRUs/LRMs were repaired by contractor. All three scenarios evaluated the off-platform test support
+usage. In combination with the SEPv3 results, two scenarios were evaluated for the SEPv2
+off-platform test support. The first scenario (base case) reflected the current maintenance policy
+(followed current SMR codes). The second scenario forced all LRU repair at the field level. Results
+from the SEPv3 and SEPv2 LORAs were combined to show a total off-platform test support usage
+for the Abrams program. Results showed a potential cost savings by downsizing the number of test
+equipment at the field level and still reaching the target operational availability.
+                                              UNCLASSIFIED
+

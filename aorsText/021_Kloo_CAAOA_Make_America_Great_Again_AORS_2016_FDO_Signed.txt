@@ -1,0 +1,49 @@
+                                               54th AORS 2016
+                             ABSTRACT SUBMISSION FORM
+Abstracts must be approved for public release or release to the foreign governments of
+Australia, Canada, France, Germany, the Netherlands, New Zealand, the Republic of Korea, and
+the United Kingdom.
+NOTE: It is the responsibility of the corresponding author to obtain the required release
+authority from their respective Foreign Disclosure Officer (FDO).
+Please email the completed and certified abstract submission form to the AORS Mailbox not
+later than 15 July 2016.
+                                     Security Classification: UNCLASSIFIED
+   Abstract:
+   Title: Make America Great Again: A methodology for tracking narratives in traditional media
+   Keywords: media, data science, aws, elasticsearch, r, text mining, web scraping
+   Recommended Working Group Session(s): Advances in OR & Technology (R&D)
+   Corresponding Author:
+   Last: Kloo                      First: Ian                                                    Org: CAA
+   Street: 6001 Goethals Rd.
+   City:     Ft Belvoir                       State: VA                           Zip: 22060                 Country: USA
+   Phone Comm: 703-806-5616                   Fax Comm:
+   Phone DSN:                                 Fax DSN:
+   Email: ian.p.kloo.civ@mail.mil
+   Additional Authors:
+   Last:                           First:                                                        Org:
+   Last:                           First:                                                        Org:
+   Last:                           First:                                                        Org:
+   Sponsor (for Contractors only):
+   Printed Name:                                                                                 Org:
+   Signature:
+   FDO Certification: I certify that this abstract has been reviewed and is (select one):
+      approved for public release.
+      releasable to these countries:___________________________________________________________
+   Printed Name: Martin Dubbs
+   Signature:                                                                                              Date: 21 July 2016
+                                                     Digitally signed by DUBBS.MARTIN.LUTHER.JR.1039126741
+                    DUBBS.MARTIN.LUTHER.JR.103912674 DN: c=US, o=U.S. Government, ou=DoD, ou=PKI, ou=USA,
+                                                     cn=DUBBS.MARTIN.LUTHER.JR.1039126741
+                    1                                Date: 2016.07.21 10:18:21 -04'00'
+
+                                          UNCLASSIFIED
+ Abstract:
+Tracking the ways that ideas propagate through traditional media sources is potentially useful for
+intelligence and information operations. This session will present a language-agnostic methodology
+to capture, analyze, and visualize media narratives as they spread across multiple sources using the
+popular slogan from Donald Trump’s campaign, “Make America Great Again,” as an example. The
+proposed methodology leverages distributed computing (using Amazon Web Services), web
+scraping techniques, language processing, and web-based visualization. The presentation will
+include a demonstration of a web app (written in R) that implements the methodology.
+                                          UNCLASSIFIED
+

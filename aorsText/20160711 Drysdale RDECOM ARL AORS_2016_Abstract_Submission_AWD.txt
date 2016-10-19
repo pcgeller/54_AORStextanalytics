@@ -1,0 +1,78 @@
+                                         54th AORS 2016
+                            ABSTRACT SUBMISSION FORM
+Abstracts must be approved for public release or release to the foreign governments of
+Australia, Canada, France, Germany, the Netherlands, New Zealand, the Republic of Korea, and
+the United Kingdom.
+NOTE: It is the responsibility of the corresponding author to obtain the required release
+authority from their respective Foreign Disclosure Officer (FDO).
+Please email the completed and certified abstract submission form to the AORS Mailbox not
+later than 15 July 2016.
+                                  Security Classification: UNCLASSIFIED
+   Abstract:
+   Title: Survivability-Focused Autorotation Modeling for Future Non-Traditional Rotorcraft
+   Keywords: survivability autorotation rotorcraft future design
+   Recommended Working Group Session(s): Modeling and Simulation, Future Capabilities
+   Corresponding Author:
+   Last: Drysdale               First: Andrew                 Org: Army Research Laboratory
+   Street: Bldg 1068
+   City:     Aberdeen Proving Ground     State: MD      Zip: 21005          Country: USA
+   Phone Comm: 410-278-4762              Fax Comm:
+   Phone DSN:                            Fax DSN:
+   Email: andrew.w.drysdale.civ@mail.mil
+   Additional Authors:
+   Last:                        First:                        Org:
+   Last:                        First:                        Org:
+   Last:                        First:                        Org:
+   Sponsor (for Contractors only):
+   Printed Name:                                              Org:
+   Signature:
+   FDO Certification: I certify that this abstract has been reviewed and is (select one):
+      approved for public release.
+      releasable to these countries:___________________________________________________________
+   Printed Name:
+   Signature:                                                            Date:
+
+                                              UNCLASSIFIED
+ Abstract:
+A principal role of the US Army Research Laboratory’s Survivability/Lethality Analysis Directorate
+(ARL/SLAD) is the execution of survivability/vulnerability (S/V) analyses of Army air and ground
+combat vehicles, their constituent systems and sub-systems, and relevant critical components.
+These analyses employ a variety of models, tools, and techniques, take place in a variety of
+contexts—support of Live-Fire Test and Evaluation; analysis-of-alternatives studies; size, weight,
+and power trade-off studies; system and/or component design; basic research; and others—and are
+performed for a variety of customers throughout and external to the Department of Defense.
+Within this exceedingly broad range of analytical competencies is the DESCENT (not an acronym)
+rotorcraft autorotation optimization model. It is designed to provide first-order estimates of best-case
+autorotation capability for a rotorcraft suffering an arbitrary degree of main-rotor power loss. The
+software was designed to maximize computational speed and input flexibility, so that the widest
+possible parameter space (e.g. initial flight conditions, vehicle weight, rotor size and inertia,
+weighted priorities for landing states, etc.) can be feasibly considered in the course of an analysis.
+In its most basic utility, DESCENT produces a velocity vector that represents the optimized landing
+velocity for a rotorcraft in a given scenario. Typically the code is run iteratively over, at minimum, an
+initial flight-condition envelope of relevance to the analyst, and then DESCENT’s predictions are
+combined in some fashion to form an “average” end state. This value(s) can then used as input into
+larger-scope S/V modeling, as a metric to evaluate possible design changes, or for other purposes.
+One simplification in the original development of the DESCENT model was the assumption of a
+single main rotor that was the sole major lifting surface, as in the UH-60 or AH-1. This did not affect
+the code’s applicability to the majority of the Army inventory, and work-arounds were available for
+addressing the CH-47 or other two-rotor vehicles. However, with the inception of the Future Vertical
+Lift (FVL) program and its preceding technology demonstrator exercise Joint Multi-Role (JMR), the
+Army’s S/V analysis needs will soon require significantly more flexibility in terms of rotorcraft
+characteristics.
+ARL/SLAD has responded to this challenge by significantly upgrading the capabilities of DESCENT.
+Of greatest relevance to FVL/JMR support is the acceptance of a user-defined number of rotors at
+arbitrary locations; this enables explicit consideration of multi-rotor, coaxial, and other
+unconventional designs. Additional lift, control, and thrust sources are also possible; this supports
+tilt-rotor and pusher-prop analyses. The algorithm for predicting successful transition to steady,
+level flight at a reduced power level has been improved and made more robust in response to the
+additional power availability in newer platforms. The post-processing visualization scripts have been
+upgraded in order to better facilitate shifting between “active” parameters in a multi-dimensional
+analysis. Finally, support documentation has been updated for more productive collaboration within
+the broader S/V analysis community.
+This presentation gives a background on various Army S/V analyses informed by DESCENT, talks
+about the anticipated requirements of S/V models for the FVL and JMR programs, discusses the
+new capabilities of DESCENT in the context of supporting non-traditional rotorcraft designs, and lays
+out the various contributions to design and development of rotorcraft platforms that fast and flexible
+physics-based survivability analyses are positioned to make.
+                                              UNCLASSIFIED
+

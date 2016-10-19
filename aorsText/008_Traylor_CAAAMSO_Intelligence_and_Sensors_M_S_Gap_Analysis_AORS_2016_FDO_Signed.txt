@@ -1,0 +1,55 @@
+                                               54th AORS 2016
+                              ABSTRACT SUBMISSION FORM
+Abstracts must be approved for public release or release to the foreign governments of
+Australia, Canada, France, Germany, the Netherlands, New Zealand, the Republic of Korea, and
+the United Kingdom.
+NOTE: It is the responsibility of the corresponding author to obtain the required release
+authority from their respective Foreign Disclosure Officer (FDO).
+Please email the completed and certified abstract submission form to the AORS Mailbox not
+later than 8 July 2016.
+                                     Security Classification: UNCLASSIFIED
+   Abstract:
+   Title: Intelligence and Sensors Modeling and Simulation Gap Analysis
+   Keywords: Modeling & Simulation, Capability Portfolio Review, ISR, Intelligence, Sensors, Operational En
+   Recommended Working Group Session(s): Modeling and Simulation (M&S)
+   Corresponding Author:
+   Last: Traylor                   First: Rebeca                                                 Org: U.S. Army Modeling and Simulation Office
+   Street: 5801 Hurley Rd
+   City:     Fort Belvoir                     State: VA                           Zip: 22060                   Country: United States
+   Phone Comm: (703) 805-0230                 Fax Comm:
+   Phone DSN:                                 Fax DSN:
+   Email: rebeca.r.traylor.civ@mail.mil
+   Additional Authors:
+   Last:   Thomas                  First: Kirby                                                  Org: U.S. Army HQDA DCS G-2
+   Last:   Harkrider               First: Susan                                                  Org: U.S. Army RDECOM CERDEC NVESD
+   Last:   Pilar                   First: Jamie                                                  Org: Trideum Corp
+   Sponsor (for Contractors only):
+   Printed Name:                                                                                 Org:
+   Signature:
+   FDO Certification: I certify that this abstract has been reviewed and is (select one):
+      approved for public release.
+      releasable to these countries:___________________________________________________________
+   Printed Name: Martin Dubbs
+   Signature:                                                                                                Date: 15 July 2016
+                                                     Digitally signed by DUBBS.MARTIN.LUTHER.JR.1039126741
+                    DUBBS.MARTIN.LUTHER.JR.103912674 DN: c=US, o=U.S. Government, ou=DoD, ou=PKI, ou=USA,
+                                                     cn=DUBBS.MARTIN.LUTHER.JR.1039126741
+                    1                                Date: 2016.07.15 09:26:32 -04'00'
+
+                                           UNCLASSIFIED
+ Abstract:
+The U.S. Army Intelligence and Sensors Modeling and Simulation (M&S) communities have come
+together in 2015 and 2016 to identify cross-community M&S gaps as part of the Army M&S
+Capability Portfolio Review (CPR). The initial CPR efforts recognized fourteen M&S gaps specific to
+the areas of intelligence and sensors, which impacted multiple Army communities (Acquisition,
+Analysis, Experimentation, Intelligence, Test and Evaluation, and Training) and prevent meeting
+Army mission needs. A working group was developed, leveraging intelligence and sensor subject
+matter experts from Army and Joint stakeholders, to define the M&S gaps, prioritize these gaps, and
+recommend courses of action for delivering M&S capability. This presentation will cover the M&S
+CPR gap process used, provide an overview of the 43 refined intelligence and sensor gaps,
+expound on the top 9 prioritized gaps, and summarize the recommended courses of action, which
+will be presented to the U.S. Army M&S Governance Forums. The M&S CPR Gap process will be a
+continuing effort with annual Gap Forums designed to gather M&S gaps and recommendations for
+gap closures.
+                                           UNCLASSIFIED
+

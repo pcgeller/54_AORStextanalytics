@@ -1,0 +1,90 @@
+                                 AMSAA OPSEC COORDINATION FORM
+                                                                                   Author(s):   Am\1 Do'( Z-<!f
+  T        of Format:                  ~ Document              0 CD/Disk           Date:   7I     oJ lo  Phone:    · ':JOO J
+   Method of Release Check T                          of Release:
+   P      ose for Release:                                                    Date of Release or Presentation:
+     .AORS                                                                     I- ?J Nov 2- 0 J b
+   Pro                                                                        DYES                          ~NO
+  Name
+   I certify that I am technically knowledgeable to review and approve the release of the information contained in
+   the enclosed format. I fully understand the threat connected with open source publications from hostile
+   intelligence sources and, in my judgment, the benefits of the release outweighs the potential damage to the
+   essential secrecy of the item in question. I, therefore, conclude that it is in the best interest of AM SAA, AMC,
+   Ann or other DoD ro rams to release this information into the ublic domain.
+                                    Reviewer's Signature-
+   Name
+                                                                                     0 CONCUR           D NONCONCUR
+                                             PM's Signature-
+                                         Public Affairs Office Representative (PAO) Review
+   Name                                 -                           Date          I Approval Decision: (Check One)
+                 \.)   Ud t ~         I C;;._:,h r;, h T) oJ.._     7 /&/;x)/1_,, I ~ CONCUR            0 NONCONCUR
+                                                                      I
+                                           PAO' s Signature--
+                                                                         n,u~~~
+                                                                          ,
+                                                             OPSEC Officer Review
+   Name                                                             Da~           I Approval Decision: (Check One)
+                  r:ru_d; t-t. r~"" hri a J_ 7/                      , ,
+                                                                        v/dt'.)/~ I ~ ONCUR             0 NON CONCUR
+                           OPSEC Officer's Signature-
+                                                                         ~-- ,-.-.': - - ~~
+  Comments:            A.J o d~~cL_.J _ ""
+AMSAA Fonn 74-R {24 January 2011)
+Previous editions of this fonn arc obsolete
+
+                                           54th AORS 2016
+                            ABSTRACT SUBMISSION FORM
+Abstracts must be approved for public release or release to the foreign governments of
+Australia, Canada, France, Germany, the Netherlands, New Zealand, the Republic of Korea, and
+the United Kingdom.
+NOTE: It is the responsibility of the corresponding author to obtain the required release
+authority from their respective Foreign Disclosure Officer (FOO).
+Please email the completed and certified abstract submission form to the AORS Mailbox not
+later than 15 July 2016.
+                                    Security Classification: UNCLASSIFIED
+   Abstract:
+   Title: Considerations for Improving Readiness
+   Keywords: readiness, reliability
+   Recommended Working Group Session(s):         Force Development; Sustainment
+   Corresponding Author:
+   Last:   Dorzey                 First: Amy                   Org: AMSAA
+   Street:  392 Hopkins Road
+   City:    Aberdeen Proving Ground        State: MD     Zip: 21005-5071    Country: USA
+   Phone Comm :                            Fax Comm:
+   Phone DSN:      278-5001                Fax DSN:
+   Email : amy.e.dorzey.civ@mail.mil
+   Additional Authors:
+   Last:                          First :                      Org:
+   Last:                          First :                      Org:
+   Last:                          First :                      Org:
+   Sponsor (for Contractors only):
+   Printed Name:                                               Org:
+   Signature:
+   FOO Certification: I certify that this abstract has been reviewed and is (select one):
+   G>approved for public release.
+   Oreleasable to these countries:
+   Printed Name:      (fu_<:i 1-l--t-. G~l~ h VLCc:.J<.._
+   Signature:         rtu~
+                         ,
+                                         p~/LAJJ                         Date:    {  1~ 1&<)1~
+                       ,
+
+                                              UNCLASSIFIED
+ Abstract:
+The Army Chief of Staff has stated that "Readiness is #1 ... And there is no other #1." The key to
+success is tackling readiness early in the system acquisition process where cost-effective design
+and logistics innovations can be readily implemented. Advancing system readiness involves
+pursuing three prongs: (1) Reliability; (2) Maintainability; and (3) Logistics Performance. If you
+improve any of these three prongs, readiness increases; however, the cost and time ramifications
+for each can be vastly different.
+Early engineering activities (thermal analysis, vibrations analysis, fatigue analysis, etc.), reliability
+growth testing, and load characterization are essential for the reliability prong. System geometries ,
+Condition Based Maintenance, and common tools are critical for the maintainability prong. Lastly,
+for logistics performance, it's all about having the right parts and procedures in the right place at the
+right time. The vastness of the trade space associated with these three prongs can be
+overwhelming without careful consideration of the quantifiable attributes and relationships of each.
+This presentation will show examples of the underlying attributes and relationships and how they
+each provide critical information for determining the most beneficial solutions for improving
+equipment readiness.
+                                              UNCLASSIFIED
+

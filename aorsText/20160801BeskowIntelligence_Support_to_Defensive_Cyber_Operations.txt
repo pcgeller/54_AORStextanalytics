@@ -1,0 +1,53 @@
+                                          54th AORS 2016
+                            ABSTRACT SUBMISSION FORM
+Abstracts must be approved for public release or release to the foreign governments of
+Australia, Canada, France, Germany, the Netherlands, New Zealand, the Republic of Korea, and
+the United Kingdom.
+NOTE: It is the responsibility of the corresponding author to obtain the required release
+authority from their respective Foreign Disclosure Officer (FDO).
+Please email the completed and certified abstract submission form to the AORS Mailbox not
+later than 15 July 2016.
+                                  Security Classification: UNCLASSIFIED
+   Abstract:
+   Title: Intelligence Support to Defensive Cyber Operations
+   Keywords: Cyber, Intel, DCO
+   Recommended Working Group Session(s): Cyber Analysis
+   Corresponding Author:
+   Last: Beskow                 First: David                                                         Org: INSCOM
+   Street: 8825 Beulah Rd
+   City:     Fort Belvoir                State: VA                                Zip: 22060                                         Country: USA
+   Phone Comm: 703.706.1255              Fax Comm:
+   Phone DSN:                            Fax DSN:
+   Email: david.m.beskow.mil@mail.mil
+   Additional Authors:
+   Last:   Hopkins              First: Christopher                                                   Org: INSCOM
+   Last:   Torres               First: Enrique                                                       Org: INSCOM
+   Last:   Edmiston             First: Russell                                                       Org: INSCOM
+   Sponsor (for Contractors only):
+   Printed Name:                                                                                     Org:
+   Signature:
+   FDO Certification: I certify that this abstract has been reviewed and is (select one):
+      approved for public release.
+      releasable to these countries:___________________________________________________________
+                                     UNCLASSIFIED//FOUO//REL TO USA, DEU, FRA, KOR, NLD, FVEY
+   Printed Name: Richard E. Grady
+   Signature:       GRADY.RICHARD.E.1027254566
+                                                Digitally signed by GRADY.RICHARD.E.1027254566
+                                                DN: c=US, o=U.S. Government, ou=DoD, ou=PKI, ou=USA, cn=GRADY.RICHARD.E.1027254566
+                                                Date: 2016.08.01 07:59:23 -04'00'
+                                                                                                                                   Date: 1 August 2016
+
+                                            UNCLASSIFIED
+ Abstract:
+Starting in 2015, the Intelligence and Security Commend (INSCOM) initiated a pilot program to
+provide additional intelligence support to Regional Cyber Centers. This effort is currently named the
+Defensive Cyber Operations Intelligence Support (DCOIS). As part of this pilot, the INSCOM ORSA
+Cell developed analytical techniques and tools that assist analysts in extracting relevant cyber data
+from intelligence data bases. These analytical techniques incorporate data fusion and entity
+extraction techniques using the R Programming language to produce a summary of cyber entities
+found in intelligence community databases. These entities are then uploaded to Cyber Situational
+Awareness Analytical Capabilities (CSAAC) to assess status and prioritize efforts. This tool
+increases the effectiveness of analysts in leveraging intelligence community data for use in
+Defensive Cyber Operations (DCO).
+                                            UNCLASSIFIED
+

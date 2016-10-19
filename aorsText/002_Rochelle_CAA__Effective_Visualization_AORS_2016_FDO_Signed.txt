@@ -1,0 +1,53 @@
+                                               54th AORS 2016
+                             ABSTRACT SUBMISSION FORM
+Abstracts must be approved for public release or release to the foreign governments of
+Australia, Canada, France, Germany, the Netherlands, New Zealand, the Republic of Korea, and
+the United Kingdom.
+NOTE: It is the responsibility of the corresponding author to obtain the required release
+authority from their respective Foreign Disclosure Officer (FDO).
+Please email the completed and certified abstract submission form to the AORS Mailbox not
+later than 15 July 2016.
+                                     Security Classification: UNCLASSIFIED
+   Abstract:
+   Title: Effective Visualization: From Modeling the Problem Set to Presentation of the Results
+   Keywords: Modeling, Visualization; SPSS Modeler; Tableau
+   Recommended Working Group Session(s): Advances in OR & Technology (R&D)
+   Corresponding Author:
+   Last: Rochelle                  First: Shawnette                                              Org: Center for Army Analysis
+   Street: Bldg 1839, 6001 Goethals Rd
+   City:     Fort Belvoir                     State: VA                           Zip: 22060-5230               Country: US
+   Phone Comm: 703-806-5537                   Fax Comm:
+   Phone DSN:       312-656-5537              Fax DSN:
+   Email: shawnette.m.rochelle.mil@mail.mil
+   Additional Authors:
+   Last:                           First:                                                        Org:
+   Last:                           First:                                                        Org:
+   Last:                           First:                                                        Org:
+   Sponsor (for Contractors only):
+   Printed Name:                                                                                 Org:
+   Signature:
+   FDO Certification: I certify that this abstract has been reviewed and is (select one):
+      approved for public release.
+      releasable to these countries:___________________________________________________________
+   Printed Name: Martin Dubbs
+   Signature:                                                                                                Date: 15 July 2016
+                                                     Digitally signed by DUBBS.MARTIN.LUTHER.JR.1039126741
+                    DUBBS.MARTIN.LUTHER.JR.103912674 DN: c=US, o=U.S. Government, ou=DoD, ou=PKI, ou=USA,
+                                                     cn=DUBBS.MARTIN.LUTHER.JR.1039126741
+                    1                                Date: 2016.07.15 09:19:57 -04'00'
+
+                                              UNCLASSIFIED
+Abstract:
+The demand for analytical underpinnings to inform decisions within the Department of Defense
+continues to grow. This increased demand for analytical products places pressure on analysts to
+more quickly model and analyze increasingly complex problems. The baseline analytical tools (e.g.
+Excel) provided, however, often make visualizing the problem, retracing the analyst’s process,
+and/or replicating the work exceedingly difficult.
+Programming provides analysts one solution, but not every analyst is a programmer. Fortunately,
+other tools, such as SPSS Modeler and Tableau, support modeling and visualization of the problem
+set through to visualization of the results for the decision maker without the need to learn a
+programming language. Deployment of these tools to support the quick modeling and visualization
+of complex problems will be highlighted as well as best practices for effective visualizations for
+decision makers.
+                                              UNCLASSIFIED
+

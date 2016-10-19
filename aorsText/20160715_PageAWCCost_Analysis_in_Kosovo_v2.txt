@@ -1,0 +1,53 @@
+                                         54th AORS 2016
+                              ABSTRACT SUBMISSION FORM
+Abstracts must be approved for public release or release to the foreign governments of
+Australia, Canada, France, Germany, the Netherlands, New Zealand, the Republic of Korea, and
+the United Kingdom.
+NOTE: It is the responsibility of the corresponding author to obtain the required release
+authority from their respective Foreign Disclosure Officer (FDO).
+Please email the completed and certified abstract submission form to the AORS Mailbox not
+later than 15 July 2016.
+                                  Security Classification: UNCLASSIFIED
+   Abstract:
+   Title: Cost Analysis in Kosovo
+   Keywords: Cost Analysis; International
+   Recommended Working Group Session(s):
+   Corresponding Author:
+   Last: Page                   First: Robert                                              Org: US Army War College - SAORD
+   Street: 650 Wright Ave, Collins Hall
+   City:     Carlisle Barracks           State: PA                          Zip: 17013                  Country: USA
+   Phone Comm: 717-245-3251              Fax Comm:
+   Phone DSN:                            Fax DSN:
+   Email: robert.l.page1.mil@mail.mil
+   Additional Authors:
+   Last:                        First:                                                     Org:
+   Last:                        First:                                                     Org:
+   Last:                        First:                                                     Org:
+   Sponsor (for Contractors only):
+   Printed Name:                                                                           Org:
+   Signature:
+   FDO Certification: I certify that this abstract has been reviewed and is (select one):
+      approved for public release.
+      releasable to these countries:___________________________________________________________
+   Printed Name:
+   Signature:                                                                                         Date:
+                                               Digitally signed by KERR.CAROL.A.1017465356
+                     KERR.CAROL.A.1017465356   DN: c=US, o=U.S. Government, ou=DoD, ou=PKI, ou=USA,
+                                               cn=KERR.CAROL.A.1017465356
+                                               Date: 2016.07.14 09:40:47 -04'00'
+
+                                             UNCLASSIFIED
+ Abstract:
+The US Army Security Assistance Training Management Organization was requested by the Kosovo
+Security Forces (KSF) to support their annual Army training exercise (Eagle V). The Eagle training
+exercises test the KSF’s ability to protect and support their country from internal issues. Eagle V
+took place in October 2016 and looked at Kosovo’s ability to handle a significant amount of refugees
+fleeing from Syria.
+The cost analysis for a training exercise of this magnitude was unique for the KSF. Sparse planning
+assumptions, size, lack of familiarity, and language barriers magnified and complicated the usual
+ranges of risk and uncertainty associated with cost estimation. This paper will describe how a
+United States Army Operations Research and Systems Analysis Officer developed cost estimation
+tools for the KSF, a North Atlantic Treaty Organization (NATO) partner, to assist Kosovo’s military
+growth.
+                                             UNCLASSIFIED
+

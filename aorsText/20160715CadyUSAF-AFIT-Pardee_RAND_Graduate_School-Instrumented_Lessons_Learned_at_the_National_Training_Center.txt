@@ -1,0 +1,49 @@
+                                         54th AORS 2016
+                            ABSTRACT SUBMISSION FORM
+Abstracts must be approved for public release or release to the foreign governments of
+Australia, Canada, France, Germany, the Netherlands, New Zealand, the Republic of Korea, and
+the United Kingdom.
+NOTE: It is the responsibility of the corresponding author to obtain the required release
+authority from their respective Foreign Disclosure Officer (FDO).
+Please email the completed and certified abstract submission form to the AORS Mailbox not
+later than 15 July 2016.
+                                  Security Classification: UNCLASSIFIED
+   Abstract:
+   Title: Instrumented Lessons Learned at the National Training Center
+   Keywords: NTC MILES Lessons Learned
+   Recommended Working Group Session(s): Manpower, Personnel & Training Analysis
+   Corresponding Author:
+   Last: Cady                   First: Andrew                 Org: USAF-AFIT/Pardee RAND Graduate School
+   Street: 1776 Main St
+   City:     Santa Monica                State: CA      Zip: 90401          Country: USA
+   Phone Comm: 31039304117406            Fax Comm:
+   Phone DSN:                            Fax DSN:
+   Email: acady@rand.org
+   Additional Authors:
+   Last:                        First:                        Org:
+   Last:                        First:                        Org:
+   Last:                        First:                        Org:
+   Sponsor (for Contractors only):
+   Printed Name:                                              Org:
+   Signature:
+   FDO Certification: I certify that this abstract has been reviewed and is (select one):
+      approved for public release.
+      releasable to these countries:___________________________________________________________
+   Printed Name:
+   Signature:                                                            Date:
+
+                                              UNCLASSIFIED
+ Abstract:
+This article uses open-source literature to explore the past and present state of lessons learned (LL)
+collection and analysis at the National Training Center (NTC). The NTC, which began training troops
+in 1981, was established with two central goals: to train the rotational unit and to provide
+lessons-learned to aid in training across the Army. The NTC has been always focused primarily on
+the former, but has a rich history of efforts towards improving the latter. Ultimately however, these
+efforts resulted in a LL system that is largely qualitative in nature; despite many attempts to use the
+enormous amounts of instrumented data collected each rotation. This primarily occurred because of
+three factors: poor data quality, inadequate computing resources, and institutional resistance. I
+propose that a new analytical methodology which takes advantage of this instrumentation data from
+NTC is today not only possible, but would be a valuable addition to lessons learned processes by
+providing highly detailed, quantitative LL analysis that generally reflects operational realities.
+                                              UNCLASSIFIED
+

@@ -1,0 +1,94 @@
+                                  AMSAA OPSEC COORDINATION FORM
+                                                                                          Brian Hairfield
+   Title:       Evaluation of Target Representation Methods for Author(s):
+                Target Acquisition in Combat Simulations
+   Type of Format: I                   x Document       D CD/Disk            Date: I 7/5/2016       I Phone: I 4102789695
+   Method of Release (Check Type of Release):
+             x Abstract                 I    D Briefing    I D Publication I D Web Posting I                D Other
+   Purpose for Release:                                                 Date of Release or Presentation:
+                                                                        1November2016
+   AORS
+   Program Manager Approval Required: (Check One)                       DYES                             xNO
+                                             OPSEC Technical Reviewer <Branch Chief)
+   Office: I USAMSAA, CSAD, ISR                                               Ofc Symbol: I AMXAA-CI
+   Name                                                         Date          Approval Decision: (Check One)
+   Elizabeth Jones                                              5JUL2016      l5ir'CONCUR         D NONCONCUR
+      Intended Distribution is Statement A, approved for Public Release - Distribution is Unlimited
+   I certify that I am technically knowledgeable to review and approve the release of the infonnation contained in
+   the enclosed fonnat. I fully understand the threat connected with open source publications from hostile
+   intelligence sources and, in my judgment, the benefits of the release outweighs the potential damage to the
+   essential secrecy of the item in question . I, therefore, conclude that it is in the best interest of AMSAA, AMC,
+   Armv or other DoD projUamS to release this infonnation into the public domain.
+                                     Reviewer's Signature-
+                                                                 ~iA_~~
+                                                     Pro2ram Mana2er's Review
+   Name                                                        Date         I Aooroval Decision:     (Check One)
+                                                                            I D CONCUR             D NONCONCUR
+                                            PM' s Signature-
+                                         Public Affairs Office Representative (PAO) Review
+   Name                                                        Date         I Aooroval Decision: (Check One)
+                   'J a d i If- /'12:/1 :S hnaJ<.              7/1/CKJ!~ I 'f;f'CONCUR             D NONCONCUR
+                                           PAO's Signature- '
+                                                                  n/- -
+                                                                    /
+                                                                      7        · ~~
+                                                       OPSEC Officer Review
+   Name               !:.-              -                      Date        I Approval Decision: (Check One)
+                U tLJi,U,            /1f .hchrzc.Jc:L          //7/ d<Jt(,  I ~ CONCUR             D NONCONCUR
+                           OPSEC Officer's Signature-
+                                                                  CJ//~~~
+                                                                    r-
+  Comments:          Ito~~-
+AMSAA Form 74-R (24 January 2011 )
+Previous editions of this form are obsolete
+
+                                                  54th AORS 2016
+                                ABSTRACT SUBMISSION FORM
+Abstracts must be approved for public release or release to the foreign governments of
+Australia, Canada, France, Germany, the Netherlands, New Zealand, the Republic of Korea, and
+the United Kingdom.
+NOTE: It is the responsibility of the corresponding author to obtain the required release
+authority from their respective Foreign Disclosure Officer (FOO).
+Please email the completed and certified abstract submission form to the AORS Mailbox not
+later than 15 July 2016.
+                                      Security Classification: UNCLASSIFIED
+   Abstract:
+   Title: Evaluation of Target Representation Methods for Target Acquisition in Combat Simulations
+   Keywords: Combat Simulations, Box and ellipsoid methods, "target acquisition
+   Recommended Working Group Session(s):                Modeling & Simulation
+   Corresponding Author:
+   Last:   Hairfield                First : Brian                    Org : AMSAA
+   Street:  392 Hopkins Road
+   City:    Aberdeen Proving Ground              State: MD     Zip: 21005         Country: USA
+   Phone Comm:       410-278-9695                Fax Comm :
+   Phone DSN :       298-9695                    Fax DSN :
+   Email: brian .j.hairfield.civ@mail.mil
+   Additional Authors:
+   Last:                            First:                           Org:
+   Last :                           First:                           Org:
+   Last:                            First :                          Org :
+   Sponsor (for Contractors only):
+   Printed Name:                                                     Org :
+   Signature:
+   FOO Certification: I certify that this abstract has been reviewed and is (select one) :
+   @approved for public release.
+   Oreleasable to these countries:
+   Printed Name:         <::fud/f-1... ··fli_:f-fs 4Y1 oc k_
+   Signature:            oh~~~
+                             /
+                                                                                Date :  7/7/d-0/l,
+                           /
+
+                                            UNCLASSIFIED
+ Abstract:
+Target presented area is used in combat simulations to support embedded direct fire and target
+acquisition methodologies. Combat simulations need to compute target presented area for every
+possible sensor - target pairing for each unique aspect and elevation ·angle. As such, a low cost,
+rapid method of calculation is required. Currently, systems are represented using simple shapes
+with accurate front and side presented areas and heights, and the intermediate areas are calculated
+using basic geometric equations. This presentation will explore the error associated with these
+methods for multiple system categories along with alternative methods of generating the data to
+include variations on the box and ellipsoid methods as employed today, the introduction of new
+simple shapes, and computer-aided design models.
+                                            UNCLASSIFIED
+

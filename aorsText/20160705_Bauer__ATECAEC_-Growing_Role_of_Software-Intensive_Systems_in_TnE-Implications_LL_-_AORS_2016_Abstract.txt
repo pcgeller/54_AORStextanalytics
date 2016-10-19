@@ -1,0 +1,52 @@
+                                          54th AORS 2016
+                            ABSTRACT SUBMISSION FORM
+Abstracts must be approved for public release or release to the foreign governments of
+Australia, Canada, France, Germany, the Netherlands, New Zealand, the Republic of Korea, and
+the United Kingdom.
+NOTE: It is the responsibility of the corresponding author to obtain the required release
+authority from their respective Foreign Disclosure Officer (FDO).
+Please email the completed and certified abstract submission form to the AORS Mailbox not
+later than 15 July 2016.
+                                  Security Classification: UNCLASSIFIED
+   Abstract:
+   Title: The Growing Role of Software-Intensive Systems in T&E: Implications and Lessons-Learned
+   Keywords: Test & Evaluation; Software; Data Collection; Data Science
+   Recommended Working Group Session(s): Sustainment
+   Corresponding Author:
+   Last: Bauer                  First: David                                               Org: ATEC - AEC
+   Street: 2202 Aberdeen Boulevard
+   City:     Aberdeen Proving Ground     State: MD                          Zip: 21005                  Country: USA
+   Phone Comm: 410-306-0396              Fax Comm:
+   Phone DSN:       458-0396             Fax DSN:
+   Email: david.a.bauer44.civ@mail.mil
+   Additional Authors:
+   Last:   O'Brien              First: Karen                                               Org: ATEC - AEC
+   Last:                        First:                                                     Org:
+   Last:                        First:                                                     Org:
+   Sponsor (for Contractors only):
+   Printed Name:                                                                           Org:
+   Signature:
+   FDO Certification: I certify that this abstract has been reviewed and is (select one):
+      approved for public release.
+      releasable to these countries:___________________________________________________________
+   Printed Name: Andrew Rush, ATEC FDO
+   Signature:                                                                                         Date: 7 July 2016
+                                               Digitally signed by RUSH.ANDREW.W.1075514863
+                    RUSH.ANDREW.W.1075514863   DN: c=US, o=U.S. Government, ou=DoD, ou=PKI, ou=USA,
+                                               cn=RUSH.ANDREW.W.1075514863
+                                               Date: 2016.07.01 12:08:43 -04'00'
+
+                                              UNCLASSIFIED
+ Abstract:
+Gone are the days when widgets broke solely due to physical processes and root cause analysis
+was a fairly straight-forward engineering activity. In the modern era of software-intensive and
+software-only acquisition systems, widgets are made of software. Finding the root cause of a
+malfunction requires an entirely different skill set -- and an entirely different approach to data
+collection-- than has been previously required in test and evaluation.
+In this presentation, we will explore the growing role of data science in test and evaluation,
+particularly with respect to fault-tracing and root-cause analysis across multiple interfaces (hardware
+and software, virtual and physical machines, servers and clients, seen and unseen processes, and
+the like), the use of server and system logs as a data source, and test planning implications. These
+will be accompanied by examples and lessons-learned from multiple system tests.
+                                              UNCLASSIFIED
+

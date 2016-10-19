@@ -1,0 +1,69 @@
+                                            54th AORS 2016
+                            ABSTRACT SUBMISSION FORM
+Abstracts must be approved for public release or release to the foreign governments of
+Australia, Canada, France, Germany, the Netherlands, New Zealand, the Republic of Korea, and
+the United Kingdom.
+NOTE: It is the responsibility of the corresponding author to obtain the required release
+authority from their respective Foreign Disclosure Officer (FDO).
+Please email the completed and certified abstract submission form to the AORS Mailbox not
+later than 15 July 2016.
+                                   Security Classification: UNCLASSIFIED
+   Abstract:
+   Title: Does BPG prophylaxis predict all-cause acute respiratory disease in military personnel?
+   Keywords: Machine learning; surveillance; epidemiology; basic combat training
+   Recommended Working Group Session(s): Modeling and simulation; MP, personnel, training analysis
+   Corresponding Author:
+   Last: Ball                    First: Jacob                                                Org: Army Public Health Center
+   Street: 5158 Blackhawk Road, Bldg 1570 Rm E147
+   City:     Aberdeen Proving Ground       State: MD                          Zip: 21010                                        Country: USA
+   Phone Comm: 914-420-2837                Fax Comm: 352-273-5365
+   Phone DSN:       410-417-2647           Fax DSN:
+   Email: jacob.d.ball6.ctr@mail.mil
+   Additional Authors:
+   Last:   Hesse                 First: Elisabeth                                            Org: Army Public Health Center
+   Last:   Rivers                First: Caitlin                                              Org: Army Public Health Center
+   Last:                         First:                                                      Org:
+   Sponsor (for Contractors only):
+   Printed Name: Caitlin Rivers                                                              Org: Army Public Health Center
+   Signature: RIVERS.CAITLIN.M.1036128298                                                        Digitally signed by RIVERS.CAITLIN.M.1036128298
+                                                                                                 DN: c=US, o=U.S. Government, ou=DoD, ou=PKI, ou=USA, cn=RIVERS.CAITLIN.M.1036128298
+                                                                                                 Date: 2016.07.13 09:05:54 -04'00'
+   FDO Certification: I certify that this abstract has been reviewed and is (select one):
+      approved for public release.
+      releasable to these countries:___________________________________________________________
+   Printed Name: Timothy Frank
+   Signature:                                                                                                              Date: 20160713
+                                                 Digitally signed by FRANK.TIMOTHY.H.1138630931
+                    FRANK.TIMOTHY.H.1138630931   DN: c=US, o=U.S. Government, ou=DoD, ou=PKI, ou=USA,
+                                                 cn=FRANK.TIMOTHY.H.1138630931
+                                                 Date: 2016.07.13 08:53:44 -04'00'
+
+                                            UNCLASSIFIED
+ Abstract:
+BACKGROUND: Previous studies have documented the effectiveness of benzathine penicillin G
+(BPG) prophylaxis at reducing all-cause acute respiratory disease (ARD) in military populations.
+BPG is an antibiotic shot administered one time at the start of basic training to eliminate
+streptococcal and staphylococcal infections that recruits bring with them to prevent further spread. It
+is not effective against viral pathogens, and has an average duration of 4 weeks. Here, we build
+models to quantify the extent to which BPG availability is predictive of ARD.
+METHODS: We fit and k-fold cross-validated four random forest models to surveillance data from
+1991 – 2016 from six Army installations. Dependent variables tested were weekly ARD counts,
+weekly ARD rates, weekly scaled ARD rates and weekly ARD quintile. Covariates in each model
+were BPG availability, adenovirus vaccine availability, post, latitude, trainee population size, year,
+month, and season. Variable importance was measured by node purity, which is the mean decrease
+in the Gini index at each tree split.
+RESULTS: The best-performing model used ARD case counts as the dependent variable, and
+explained nearly 80% of the variance in the data with a mean absolute error of 8.01. Population size
+and year had the highest node purities, followed by installation and administration of adenovirus
+vaccine. BPG availability was the fifth most important variable and its node purity score was less
+than one fourth that of population size. BPG availability was not among the four most important
+predictors of all-cause ARD in any of the four models.
+DISCUSSION: These results indicate that BPG availability is not a strong predictor of all-cause
+ARD cases in military populations. BPG prophylaxis may not reduce ARD morbidity at the
+population level when adenovirus is well controlled. We recommend performing streptococcal
+infection-specific surveillance and analysis to examine the true effectiveness of BPG in this
+population. Simulation studies could provide guidance as to what alternative or concurrent
+interventions—including a revised BPG regimen— could further reduce all-cause ARD morbidity in
+military populations.
+                                            UNCLASSIFIED
+

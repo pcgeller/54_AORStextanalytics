@@ -1,0 +1,99 @@
+                                 AMSAA OPSEC COORDINATION FORM
+                Sample Data Collection and Analysis (SDC-A)                                  Prudence L. Elliott-Bird
+   Title:       M1A2 SEP Vl vs M1A2 SEP V2 Comparison                           Author(s):
+                Analysis
+   Type of Format: I I Document                       D CD/Disk                 Date: I 6/29/2016 I Phone: I 278-3960
+   Method of Release (Check Type of Release):
+            •Abstract                   I D Briefing I D Publication I D Web Posting I                       D Other
+   Purpose for Release:                                                    Date of Release or Presentation:
+   Abstract for AORS                                                       AORS: 1-3 November 2016
+   Program Manager Approval Required: (Check One)                           DYES                        •No
+                                             OPSEC Technical Reviewer
+   Office:       LAD/Field Studies Branch                                                       AMXAA-LF
+   Name                                                         Date
+                                                                o .:rv I) I <.a      CONCUR        D NONCONCUR
+   I certify that I am technically knowledgeable to review and approve the release of the information contained in
+   the enclosed format. I fully understand the threat connected with open source publications from hostile
+   intelligence sources and, in my judgment, the benefits of the release outwe·            the po ntial damage to the
+   essential secrecy of the item in question. I, therefore, conclude that it · n e best · terest of AMSAA, AMC,
+   Arm or other DoD ro rams to release this information into the                   ·
+                                    Reviewer's   Signature~
+                                                    Proe:ram Manae:er's Review
+   Name                                                        Date              Approval Decision: (Check One)
+                                                                                 D CONCUR           D NONCONCUR
+                                            PM's Signature~
+                                         Public Affairs Office Re resentative PAO Review
+   Name
+                                                                                   CONCUR           D NONCONCUR
+                                           PAO's Signature~
+                                                       OPSEC Officer Review
+   Name
+                                                                                     CONCUR         D NONCONCUR
+                           OPSEC Officer's       Signature~
+  Comments: fJ            o    d~;e_ s Al ee J.. e.c:/. •
+AMSAA Form 74-R (24 January 2011)
+Previous editions of this form are obsolete
+
+                                              54th AORS 2016
+                               ABSTRACT SUBMISSION FORM
+Abstracts must be approved for public release or release to the foreign governments of
+Australia, Canada, France, Germany, the Netherlands, New Zealand, the Republic of Korea, and
+the United Kingdom.
+NOTE: It is the responsibility of the corresponding author to obtain the required release
+authority from their respective Foreign Disclosure Officer {FOO).
+Please email the completed and certified abstract submission form to the AORS Mailbox not
+later than 15 July 2016.
+                                    · Security Classification: UNCLASSIFIED
+   Abstract:
+   Title: ABRAMS M1A2 SEP V1 versus ABRAMS M1A2 SEP V2 SOC Comparison
+   Keywords: M1A2 ABRAMS, Sustainment Metrics, Sample Data Collection
+   Recommended Working Group Session{s) : Sustainment
+   Corresponding Author:
+   Last:   Elliott-Bird             First: Prudence               Org: AMSAA
+   Street: 392 Hopkins Road
+   City:    Aberdeen Proving Ground          State: MD      Zip: 21005        Country: USA
+   Phone Comm:        410.278.3960           Fax Comm :
+   Phone DSN :        298.3960               Fax DSN:
+   Email:
+   Additional Authors:
+   Last:                            First :                       Org:
+   Last:                            First :                       Org:
+   Last :                           First :                       Org:
+   Sponsor (for Contractors only):
+   Printed Name:                                                  Org:
+   Signature:
+   FOO Certification: I certify that this abstract has been reviewed and is {select one) :
+   $approved for public release.
+   Oreleasable to these countries :
+   Printed Name:         rj""u.dl- H-. 7a.:.t-i i "1 n o J~
+   Signature:             f1,/~
+                            ,             ~~                                Date : t , ao, /;;o/ c.,
+                           .
+
+                                             UNCLASSIFIED
+Abstract:
+The briefing presents the results of an analysis which utilized AMSAA's Sample Data Collection
+(SDC) and Analysis information to compare the M1A2 SEP V1 with the M1A2 SEP V2 in terms of
+age, optempo, reliability, maintainability, downtime, and replacements parts cost. This study
+provided a unique opportunity to compare a large sample of M1A2 ABRAMS before and after a
+vehicle upgrade (by vehicle serial number) under SDC at Ft. Hood, TX.
+                                              UNCLASSIFIED
+
+    ABRAMS M1A2 SEP V1 versus ABRAMS M1A2 SEP V2 SOC
+                                     Comparison
+                                  Prudence L. Elliott-Bird
+                   U.S. Army Materiel Systems Analysis Activity (AMSAA)
+                                        AMXAA-LF
+                                     392 Hopkins Road
+                        Aberdeen Proving Ground , MD 21005-5071
+                                      (410) 278-3960
+                             prudence.l.elliottbird.civ@mail .mil
+                                         Keywords
+                M1A2 ABRAMS , Sustainment Metrics, Sample Data Collection
+The briefing presents the results of an analysis which utilized AMSAA's Sample Data
+Collection (SOC) and Analysis information to compare the M1A2 SEP V1 with the M1A2
+SEP V2 in terms of age, optempo, reliability, maintainability, downtime, and
+replacements parts cost. This study provided a unique opportunity to compare a large
+sample of M1A2 ABRAMS before and after a vehicle upgrade (by vehicle serial number)
+under SOC at Ft. Hood, TX.
+

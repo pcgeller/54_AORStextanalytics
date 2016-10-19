@@ -1,0 +1,54 @@
+                                               54th AORS 2016
+                              ABSTRACT SUBMISSION FORM
+Abstracts must be approved for public release or release to the foreign governments of
+Australia, Canada, France, Germany, the Netherlands, New Zealand, the Republic of Korea, and
+the United Kingdom.
+NOTE: It is the responsibility of the corresponding author to obtain the required release
+authority from their respective Foreign Disclosure Officer (FDO).
+Please email the completed and certified abstract submission form to the AORS Mailbox not
+later than 8 July 2016.
+                                      Security Classification: UNCLASSIFIED
+   Abstract:
+   Title: Existing and Emerging Techniques for Building Clearing Operations within COMBATXXI
+   Keywords: Buildings, Behaviors, Maneuvers, Urban operations, Modeling, Simulation, COMBATXXI
+   Recommended Working Group Session(s):                 Modeling and Simulation (M&S); Advances in OR & Technology (R&D)
+   Corresponding Author:
+   Last: Pfeiffer                   First: Heather D.                                             Org: TRAC-WSMR
+   Street: TRADOC Analysis Center, TRAC-WSMR, Bldg. 1400, Martin Luther King Avenue
+   City:     WSMR                              State: NM                           Zip: 88002                 Country: USA
+   Phone Comm: 575-678-1649                    Fax Comm: 575-678-6887
+   Phone DSN:       258-1649                   Fax DSN:                      258-6887
+   Email: heather.d.pfeiffer.civ@mail.mil
+   Additional Authors:
+   Last:   Torres                   First: Mario A.                                               Org: TRAC-WSMR
+   Last:                            First:                                                        Org:
+   Last:                            First:                                                        Org:
+   Sponsor (for Contractors only):
+   Printed Name:                                                                                  Org:
+   Signature:
+   FDO Certification: I certify that this abstract has been reviewed and is (select one):
+      approved for public release.
+      releasable to these countries:___________________________________________________________
+                                         USA/AUS/CAN/FRA/DEU/NLD/NZL/ROK/GBR
+   Printed Name: Cynthia A. Acord, Foreign Disclosure Officer, TRAC-WSMR
+   Signature:                                                                                               Date: 07/07/16
+                                                      Digitally signed by ACORD.CYNTHIA.ANN.1115709280
+                    ACORD.CYNTHIA.ANN.1115709280      DN: c=US, o=U.S. Government, ou=DoD, ou=PKI, ou=USA,
+                                                      cn=ACORD.CYNTHIA.ANN.1115709280
+                                                      Date: 2016.07.07 15:15:54 -06'00'
+
+                                             UNCLASSIFIED
+ Abstract:
+Improved representation of the urban fight with combat models is an increasingly critical requirement
+for the United States Army. An important depiction of urban operations involves the use of behaviors
+in the simulation of tactics, techniques, and procedures (TTP) to execute room and building clearing
+tasks. Movement to buildings with the Combined Arms Analysis Tool for the 21st Century
+(COMBATXXI) model is performed through the Coordinated Maneuver Methodology Tool (CMMT).
+To simplify scenario developments and improve simulations of these TTPs, the United States Army
+Training and Doctrine Command (TRADOC) Analysis Center (TRAC) is adding to COMBATXXI and
+CMMT behaviors that dynamically execute and manage operations for clearing rooms and buildings.
+A follow-on effort will apply Hierarchical Task Networks in support of decision-making techniques
+linking CMMT and generic urban operations behaviors. This presentation will describe the modeling
+approaches to execute room and building clearing operations
+                                             UNCLASSIFIED
+

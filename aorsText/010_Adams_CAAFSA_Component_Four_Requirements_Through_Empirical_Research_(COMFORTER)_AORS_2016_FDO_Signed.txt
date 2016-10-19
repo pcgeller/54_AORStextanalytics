@@ -1,0 +1,56 @@
+                                               54th AORS 2016
+                             ABSTRACT SUBMISSION FORM
+Abstracts must be approved for public release or release to the foreign governments of
+Australia, Canada, France, Germany, the Netherlands, New Zealand, the Republic of Korea, and
+the United Kingdom.
+NOTE: It is the responsibility of the corresponding author to obtain the required release
+authority from their respective Foreign Disclosure Officer (FDO).
+Please email the completed and certified abstract submission form to the AORS Mailbox not
+later than 15 July 2016.
+                                     Security Classification: UNCLASSIFIED
+   Abstract:
+   Title: Component Four Requirements Through Empirical Research (COMFORTER)
+   Keywords: Force Structure, TAA Resourcing Panel, Force Development, Unit Resourcing
+   Recommended Working Group Session(s): Force Development
+   Corresponding Author:
+   Last: Adams                     First: Jordon                                                 Org: Center for Army Analysis
+   Street: 6001 Goethals Road
+   City:     Fort Belvoir                     State: VA                           Zip: 22060                    Country: United States
+   Phone Comm: 703-806-5559                   Fax Comm:
+   Phone DSN:                                 Fax DSN:
+   Email: jordon.r.adams.civ@mail.mil
+   Additional Authors:
+   Last:   Holzgrefe               First: James                                                  Org: Center for Army Analysis
+   Last:                           First:                                                        Org:
+   Last:                           First:                                                        Org:
+   Sponsor (for Contractors only):
+   Printed Name:                                                                                 Org:
+   Signature:
+   FDO Certification: I certify that this abstract has been reviewed and is (select one):
+      approved for public release.
+      releasable to these countries:___________________________________________________________
+   Printed Name: Martin Dubbs
+   Signature:                                                                                                Date: 15 July 2016
+                                                     Digitally signed by DUBBS.MARTIN.LUTHER.JR.1039126741
+                    DUBBS.MARTIN.LUTHER.JR.103912674 DN: c=US, o=U.S. Government, ou=DoD, ou=PKI, ou=USA,
+                                                     cn=DUBBS.MARTIN.LUTHER.JR.1039126741
+                    1                                Date: 2016.07.15 10:28:35 -04'00'
+
+                                            UNCLASSIFIED
+ Abstract:
+Total Army Analysis is an annual programming exercise through which the Army determines how it
+will adapt its mix of forces. Considerations for this adaptation include current operational tempo,
+strategic guidance, and end-strength constraints. Typically, TAA identifies a target force structure for
+the end of the Program Objective Memorandum (POM) and force managers determine how the
+Army’s mix will change from the current structure to achieve the target structure by the end of the
+POM.
+During TAA19-23, Army senior leaders requested analysis of the “total required force”, which
+required a close look at the unresourced force structure (Component/COMPO 4). This presentation
+describes how CAA developed a methodology to address force structure risk, assess sensitivity of
+inventory requirements to parameter changes, and to inform COMPO 4 discussions between the
+Director of Force Management, the Army G3, and the Chief of Staff of the Army. The methodology
+developed includes a means of identifying unresourced units in planned Army structure,
+corresponding personnel requirements and an overall cost analysis on planned operating force
+structure.
+                                            UNCLASSIFIED
+

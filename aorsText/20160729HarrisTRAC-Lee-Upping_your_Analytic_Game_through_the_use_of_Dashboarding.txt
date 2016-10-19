@@ -1,0 +1,55 @@
+                                           54th AORS 2016
+                              ABSTRACT SUBMISSION FORM
+Abstracts must be approved for public release or release to the foreign governments of
+Australia, Canada, France, Germany, the Netherlands, New Zealand, the Republic of Korea, and
+the United Kingdom.
+NOTE: It is the responsibility of the corresponding author to obtain the required release
+authority from their respective Foreign Disclosure Officer (FDO).
+Please email the completed and certified abstract submission form to the AORS Mailbox not
+later than 15 July 2016.
+                                   Security Classification: UNCLASSIFIED
+   Abstract:
+   Title: Upping your Analytic Game through the use of Dashboarding
+   Keywords: Dashboarding, Tableau, Analytics, Business Intelligence
+   Recommended Working Group Session(s): Advances in OR & Technology
+   Corresponding Author:
+   Last: Harris                 First: Brian                                                 Org: TRADOC Analysis Center – Fort Lee
+   Street: 700 Quarters Road, Suite 210
+   City:     Fort Lee                     State: VA                           Zip: 23801-1703            Country: USA
+   Phone Comm: (804) 765-1806             Fax Comm: 804-765-1456
+   Phone DSN:       536-1806              Fax DSN:                      536-1456
+   Email: brian.j.harris18.mil@mail.mil
+   Additional Authors:
+   Last:                        First:                                                       Org:
+   Last:                        First:                                                       Org:
+   Last:                        First:                                                       Org:
+   Sponsor (for Contractors only):
+   Printed Name:                                                                             Org:
+   Signature:
+   FDO Certification: I certify that this abstract has been reviewed and is (select one):
+      approved for public release.
+      releasable to these countries:___________________________________________________________
+                                     USA/AUS/CAN/FRA/DEU/NLD/NZL/ROK/GBR
+   Printed Name: Cynthia A. Acord, Foreign Disclosure Officer, TRAC-WSMR
+   Signature:                                                                                          Date: 07/25/16
+                                                 Digitally signed by ACORD.CYNTHIA.ANN.1115709280
+                    ACORD.CYNTHIA.ANN.1115709280 DN: c=US, o=U.S. Government, ou=DoD, ou=PKI, ou=USA,
+                                                 cn=ACORD.CYNTHIA.ANN.1115709280
+                                                 Date: 2016.07.25 14:59:20 -06'00'
+
+                                             UNCLASSIFIED
+ Abstract:
+The proliferation of sensors and machine data, both on battlefield and in garrison, require new and
+innovative ways to analyze, visualize, and communicate results to decision makers. The next
+generation of decision makers and staff will increasingly ask for “analytic tools” and interactive
+dashboards rather than static analysis. Tableau, and other dashboarding software packages, allow
+for the efficient production of such tools.
+This presentation will provide practical applications of dashboards built to automate and enhance
+analysis across multiple categories of data including survey data, operational data, simulation data,
+and cyber data. Examples will range from replicating and automating routine PowerPoint slides, to
+analyzing large sets of simulation data. This presentation will also demonstrate an enterprise level
+dashboard deployment at the Gallup Organization that automated and enhanced World Poll data
+vetting, significantly improving the depth of analysis and reducing resources required to process and
+analyze the data.
+                                             UNCLASSIFIED
+

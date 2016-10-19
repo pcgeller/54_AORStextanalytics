@@ -1,0 +1,59 @@
+                                               54th AORS 2016
+                             ABSTRACT SUBMISSION FORM
+Abstracts must be approved for public release or release to the foreign governments of
+Australia, Canada, France, Germany, the Netherlands, New Zealand, the Republic of Korea, and
+the United Kingdom.
+NOTE: It is the responsibility of the corresponding author to obtain the required release
+authority from their respective Foreign Disclosure Officer (FDO).
+Please email the completed and certified abstract submission form to the AORS Mailbox not
+later than 15 July 2016.
+                                     Security Classification: UNCLASSIFIED
+   Abstract:
+   Title: MUNITIONS EFFECTIVENESS TOOL TO ADDRESS MULTI-VARAIANT REALITIES
+   Keywords: Theater Campaign Modeling, Phase Threat Distribution, Munitions Effectiveness, Shot Distribu
+   Recommended Working Group Session(s): Current Operations, War gaming,Resource Analysis
+   Corresponding Author:
+   Last: Smith                     First: Shana                                                  Org: Center for Army Analysis
+   Street: 6001 Geothals Rd
+   City:     FT Belvior                       State: VA                           Zip: 22060                    Country: USA
+   Phone Comm: 703-806-5481                   Fax Comm: 703-806-5743
+   Phone DSN:       312-656-5481              Fax DSN:                      312-656-5743
+   Email:
+   Additional Authors:
+   Last:   Nixon                   First: Gregory                                                Org: Center for Army Analysis
+   Last:   Tchanqué                First: Emmanuel                                               Org: Center for Army Analysis
+   Last:                           First:                                                        Org:
+   Sponsor (for Contractors only):
+   Printed Name:                                                                                 Org:
+   Signature:
+   FDO Certification: I certify that this abstract has been reviewed and is (select one):
+      approved for public release.
+      releasable to these countries:___________________________________________________________
+   Printed Name: Martin Dubbs
+   Signature:                                                                                                Date: 15 July
+                                                     Digitally signed by DUBBS.MARTIN.LUTHER.JR.1039126741
+                    DUBBS.MARTIN.LUTHER.JR.103912674 DN: c=US, o=U.S. Government, ou=DoD, ou=PKI, ou=USA,
+                                                     cn=DUBBS.MARTIN.LUTHER.JR.1039126741
+                    1                                Date: 2016.07.15 09:41:19 -04'00'
+
+                                             UNCLASSIFIED
+ Abstract:
+When looking at munitions requirements in the aggregate, a campaign can be simplified into two
+questions, “Who shot at what?” and “What did it kill?” CAA has consistently been asked to
+determine the munitions shot distribution and kills of targets for the Army’s share of various theater
+campaign phased threat distributions (PTD). In response to this ongoing requirement, CAA
+developed a repeatable and adaptable methodology using prior modeled output modified to address
+alternative assumptions of target density and munitions availability.
+As a process improvement, a repeatable and adaptable tool using this methodology is being
+developed which provides the decision maker flexibility in assumptions and inputs while calculating
+a reasonable shot distribution and projected kills. The tool has two inputs: the quantity of munitions
+by type and the quantity of targets by type which can be varied by the decision maker. To calculate
+the shot distribution of munitions to targets, two preferred realities are considered: 1) Given a
+quantity of munitions what is the preferred shot to target, and 2) Given a quantity of targets what is
+the preferred munitions required to address them. These ratios and the expected red system kills
+are currently being calculated using modeled output from a representative scenario, but this tool is
+designed to be modified based on SME input. By comparing what you would prefer to shoot your
+munitions at, with how you would prefer to kill a target, it’s possible to create a munitions-to-target
+shot distribution constrained by munitions availability and target density.
+                                             UNCLASSIFIED
+

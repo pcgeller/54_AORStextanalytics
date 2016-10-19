@@ -1,0 +1,60 @@
+                                           54th AORS 2016
+                            ABSTRACT SUBMISSION FORM
+Abstracts must be approved for public release or release to the foreign governments of
+Australia, Canada, France, Germany, the Netherlands, New Zealand, the Republic of Korea, and
+the United Kingdom.
+NOTE: It is the responsibility of the corresponding author to obtain the required release
+authority from their respective Foreign Disclosure Officer (FDO).
+Please email the completed and certified abstract submission form to the AORS Mailbox not
+later than 15 July 2016.
+                                  Security Classification: UNCLASSIFIED
+   Abstract:
+   Title: Analysis of Tactical Wheeled Vehicle Accidents in the US Army
+   Keywords: Safety, Accidents, Tactical Wheeled Vehicles, Master Driver Trainer Qualification Course
+   Recommended Working Group Session(s): Manpower, Personnel, & Training Analysis
+   Corresponding Author:
+   Last: Walkowicz              First: Joseph                                                Org: TRADOC Analysis Center – Fort Lee
+   Street: 700 Quarters Road, Suite 210
+   City:     Fort Lee                     State: VA                           Zip: 23801-1703            Country: USA
+   Phone Comm: 804-765-1811               Fax Comm: 804-765-1456
+   Phone DSN:       536                   Fax DSN:
+   Email: joseph.m.campbell-walkowicz.civ@mail.mil
+   Additional Authors:
+   Last:   Steffey              First: John                                                  Org: TRADOC Analysis Center – Fort Lee
+   Last:                        First:                                                       Org:
+   Last:                        First:                                                       Org:
+   Sponsor (for Contractors only):
+   Printed Name:                                                                             Org:
+   Signature:
+   FDO Certification: I certify that this abstract has been reviewed and is (select one):
+      approved for public release.
+      releasable to these countries:___________________________________________________________
+                                     USA/AUS/CAN/FRA/DEU/NLD/NZL/ROK/GBR
+   Printed Name: Cynthia A. Acord, Foreign Disclosure Officer, TRAC-WSMR
+   Signature:                                                                                          Date: 07/25/16
+                                                 Digitally signed by ACORD.CYNTHIA.ANN.1115709280
+                    ACORD.CYNTHIA.ANN.1115709280 DN: c=US, o=U.S. Government, ou=DoD, ou=PKI, ou=USA,
+                                                 cn=ACORD.CYNTHIA.ANN.1115709280
+                                                 Date: 2016.07.25 15:49:42 -06'00'
+
+                                             UNCLASSIFIED
+ Abstract:
+The United States Army Transportation School developed the Master Driver Trainer Qualification
+Course (MDTQC) in Fiscal Year 13 in an effort to reduce accident rates. The MDTQC covers
+standard programs for operator safety, risk management, and accident avoidance. Course
+graduates become a certified Master Driver Trainer (MDT) responsible for planning and
+implementing their unit’s driver training programs. Through its graduates, the MDTQC aims to
+reduce the frequency and severity of Tactical Wheeled Vehicle (TWV) accidents across Army
+commands.
+The Transportation School asked TRAC-LEE to identify a correlation between their course and the
+TWV accident rate and thus determine if their strategy was working. TRAC-LEE leveraged a US
+Army Combat Readiness Center database of vehicular accidents to consider the impact of MDTs on
+US Army driver safety and TWV accidents. In addition, a survey of the MDTQC graduates was
+conducted to gauge their influence on unit implementation, including effectiveness and training.
+Using these lines of evidence, TRAC-LEE found a positive relationship between the implementation
+of the MDTQC and a reduction in the frequency and severity of Army TWV accidents. A similar
+relationship was found when classification, vehicle type, and geographical location were taken into
+account. This presentation will discuss the analysis and findings of TWV accidents before and after
+the inception of the MDTQC.
+                                             UNCLASSIFIED
+

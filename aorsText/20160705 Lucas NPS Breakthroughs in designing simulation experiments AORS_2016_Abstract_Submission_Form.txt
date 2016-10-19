@@ -1,0 +1,59 @@
+                                         54th AORS 2016
+                            ABSTRACT SUBMISSION FORM
+Abstracts must be approved for public release or release to the foreign governments of
+Australia, Canada, France, Germany, the Netherlands, New Zealand, the Republic of Korea, and
+the United Kingdom.
+NOTE: It is the responsibility of the corresponding author to obtain the required release
+authority from their respective Foreign Disclosure Officer (FDO).
+Please email the completed and certified abstract submission form to the AORS Mailbox not
+later than 15 July 2016.
+                                  Security Classification: UNCLASSIFIED
+   Abstract:
+   Title: Breakthroughs in designing simulation experiments
+   Keywords: simulation, design of experiments, data farming
+   Recommended Working Group Session(s): Advances in OR & Tech and Modeling and Simulation
+   Corresponding Author:
+   Last: Lucas                  First: Thomas                                              Org: Naval Postgraduate School
+   Street: 1411 Cunningham Road
+   City:     Monterey                    State: CA                          Zip: 93943                   Country: USA
+   Phone Comm: 831-656-3039              Fax Comm: 831-656-2595
+   Phone DSN:                            Fax DSN:
+   Email: twlucas@nps.edu
+   Additional Authors:
+   Last:   Sanchez              First: Susan                                               Org: Naval Postgraduate School
+   Last:   Sanchez              First: Paul                                                Org: Naval Postgraduate School
+   Last:   Hernandez            First: Andy                                                Org: Naval Postgraduate School
+   Sponsor (for Contractors only):
+   Printed Name:                                                                           Org:
+   Signature:
+   FDO Certification: I certify that this abstract has been reviewed and is (select one):
+      approved for public release.
+      releasable to these countries:___________________________________________________________
+   Printed Name: Thomas W Lucas
+   Signature:                                                                                          Date:
+                                               Digitally signed by LUCAS.THOMAS.W.1228810017
+                    LUCAS.THOMAS.W.1228810017  DN: c=US, o=U.S. Government, ou=DoD, ou=PKI, ou=USN,
+                                               cn=LUCAS.THOMAS.W.1228810017
+                                               Date: 2016.07.05 10:55:44 -07'00'
+
+                                              UNCLASSIFIED
+ Abstract:
+The Army of the future depends critically on ongoing decisions and investments. Since physical
+experimentation is expensive and limited, the Arm relies on computer simulation to help decide how
+best to equip, man, organize, employ, train, supply, and maintain the force. These computer
+models can be extremely complex, with thousands of potentially interacting factors and many
+sources of uncertainty. Efficiently exploring these high-dimensional models requires the effective
+use of design of experiments (DOE). Fortunately, recent breakthroughs in the science for exploring
+computational models enables much more powerful large-scale simulation studies. In fact,
+researchers and students in the SEED Center for Data Farming (http://harvest.nps.edu) at the Naval
+Postgraduate School are routinely doing experiments that were not available only a decade ago—
+often simultaneously varying many scores of variables of different types and levels. This
+presentation provides an overview of modern data faming and introduces a portfolio of experimental
+designs for efficiently obtaining insights from high-dimensional models. These designs offer the
+researcher both design and analysis flexibility. The design flexibility allows analysts to readily
+generate designs for a large number of input factors of various types within reasonable sampling
+budgets. The analysis flexibility provides analysts with the ability to fit many different meta-models
+to multiple output measures. The presentation will include an example analysis using these
+techniques and a brief tutorial of one of our more useful design generating tools.
+                                              UNCLASSIFIED
+

@@ -1,0 +1,53 @@
+                                            54th AORS 2016
+                             ABSTRACT SUBMISSION FORM
+Abstracts must be approved for public release or release to the foreign governments of
+Australia, Canada, France, Germany, the Netherlands, New Zealand, the Republic of Korea, and
+the United Kingdom.
+NOTE: It is the responsibility of the corresponding author to obtain the required release
+authority from their respective Foreign Disclosure Officer (FDO).
+Please email the completed and certified abstract submission form to the AORS Mailbox not
+later than 8 July 2016.
+                                   Security Classification: UNCLASSIFIED
+   Abstract:
+   Title: Reliability Block Diagrams: Analytical Foundation for Reliability Impacts on Tomorrow’s Wars
+   Keywords: Reliability Analysis, Systems of Systems, Modeling and Simulation, Test and Evaluation, Statis
+   Recommended Working Group Session(s): Sustainment, Modeling and Simulation, Future Capabilities
+   Corresponding Author:
+   Last: O'Brien                 First: Karen                                                 Org: Army Evaluation Center
+   Street: 2202 Aberdeen Blvd Attn: 2nd floor - TEAE-IS
+   City:     Aberdeen Proving Ground       State: MD                           Zip: 21005                   Country: United States
+   Phone Comm: 410-306-1980                Fax Comm:
+   Phone DSN:       458-1980               Fax DSN:
+   Email: karen.l.obrien.civ@mail.mil
+   Additional Authors:
+   Last:                         First:                                                       Org:
+   Last:                         First:                                                       Org:
+   Last:                         First:                                                       Org:
+   Sponsor (for Contractors only):
+   Printed Name:                                                                              Org:
+   Signature:
+   FDO Certification: I certify that this abstract has been reviewed and is (select one):
+      approved for public release.
+      releasable to these countries:___________________________________________________________
+   Printed Name: Jennifer Coleman
+   Signature:                                                                                            Date: 21 June 2016
+                                                  Digitally signed by COLEMAN.JENNIFER.D.1102048632
+                                                  DN: c=US, o=U.S. Government, ou=DoD, ou=PKI, ou=USA,
+                    COLEMAN.JENNIFER.D.1102048632 cn=COLEMAN.JENNIFER.D.1102048632
+                                                  Date: 2016.06.21 07:10:14 -04'00'
+
+                                             UNCLASSIFIED
+ Abstract:
+Modeling and Simulation in system acquisition is often a tough sell due to the perceived cost.
+However, if there was one and only one model to invest in – one with high return on investment and
+maximum versatility – it would be a reliability block diagram (RBD).
+In this presentation, the Army’s Center for Reliability Growth (co-led by the Army Evaluation Center
+and the Army Materiel Systems Analysis Activity) continues its series on high-ROI methods for
+system reliability analysis by showcasing the many applications of RBDs in test and evaluation –
+from allocating resources during systems engineering, to optimizing statistical risks in test design, to
+estimating system reliability, to estimating probability of failure-free operations during a mission that
+utilizes a set of systems. As systems and the environments in which they operate become more
+complex, a solid analytical foundation for understanding impacts arising from system reliability
+characteristics becomes essential. RBDs are a versatile and affordable option for filling this need.
+                                             UNCLASSIFIED
+

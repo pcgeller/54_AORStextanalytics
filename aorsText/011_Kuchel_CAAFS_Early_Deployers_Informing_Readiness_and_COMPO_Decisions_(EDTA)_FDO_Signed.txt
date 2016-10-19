@@ -1,0 +1,60 @@
+                                               54th AORS 2016
+                             ABSTRACT SUBMISSION FORM
+Abstracts must be approved for public release or release to the foreign governments of
+Australia, Canada, France, Germany, the Netherlands, New Zealand, the Republic of Korea, and
+the United Kingdom.
+NOTE: It is the responsibility of the corresponding author to obtain the required release
+authority from their respective Foreign Disclosure Officer (FDO).
+Please email the completed and certified abstract submission form to the AORS Mailbox not
+later than 15 July 2016.
+                                     Security Classification: UNCLASSIFIED
+   Abstract:
+   Title: Early Deployers: Informing Readiness and COMPO Decisions
+   Keywords: Enablers, TPFDD, OPLAN, TAA, Total Army Analysis, Sustainable Readiness, Readiness
+   Recommended Working Group Session(s): Force Development
+   Corresponding Author:
+   Last: Kuchel                    First: Dallas                                                 Org: Center for Army Analysis
+   Street: 6001 Goethals Rd
+   City:     Fort Belvoir                     State: VA                           Zip: 22060                    Country: USA
+   Phone Comm: 703-806-5322                   Fax Comm:
+   Phone DSN:                                 Fax DSN:
+   Email: dallas.kuchel.civ@mail.mil
+   Additional Authors:
+   Last:   Hatch                   First: Sandra                                                 Org: CAA
+   Last:   Barbour                 First: Doug                                                   Org: CAA
+   Last:   Edwards                 First: Doug                                                   Org: CAA
+   Sponsor (for Contractors only):
+   Printed Name:                                                                                 Org:
+   Signature:
+   FDO Certification: I certify that this abstract has been reviewed and is (select one):
+      approved for public release.
+      releasable to these countries:___________________________________________________________
+   Printed Name: Martin Dubbs
+   Signature:                                                                                                Date: 18 July 2016
+                                                     Digitally signed by DUBBS.MARTIN.LUTHER.JR.1039126741
+                    DUBBS.MARTIN.LUTHER.JR.103912674 DN: c=US, o=U.S. Government, ou=DoD, ou=PKI, ou=USA,
+                                                     cn=DUBBS.MARTIN.LUTHER.JR.1039126741
+                    1                                Date: 2016.07.18 07:10:01 -04'00'
+
+                                             UNCLASSIFIED
+ Abstract:
+“Readiness for ground combat is – and will remain – the U.S. Army’s #1 priority” stated Chief of Staff
+of the Army, GEN Milley, in his 2015 Initial Message to the Army. The Army is moving away from
+Army Force Generation (ARFORGEN), a readiness model that acted as an assembly line, providing
+forces to a known and stable demand, towards a more flexible model in Sustainable Readiness
+(SR). Facing an uncertain future threat, the Army needs to ensure a ready force that is responsive
+to whichever crisis may arise. The initial focus of the SR process is on early deploying units, which
+require a higher state of readiness and may therefore be required to be in the Active Component
+(AC).
+In support of the effort to improve the Army’s strategic readiness, the Center for Army Analysis
+(CAA) has developed an algorithm designed to parse Time-Phased Force Deployment Data
+(TPFDDs) associated with Operations Plans (OPLANs) created by the Combatant Commands to
+determine daily unit requirements by type and highlight early deployer requirements across multiple
+TPFDDs. Readiness and inventory must be managed not only for major combat units like Brigade
+Combat Teams (BCTs), but also for hundreds of enabler units, eliciting the need for an automated
+tool. CAA provides daily unit requirements to the SR process and to Total Army Analysis (TAA) to
+inform unit readiness requirements and COMPO decisions. Defining and quantifying future threats
+in terms of early deployer requirements will help the Army ensure it is ready to win the Nation’s
+future wars.
+                                             UNCLASSIFIED
+

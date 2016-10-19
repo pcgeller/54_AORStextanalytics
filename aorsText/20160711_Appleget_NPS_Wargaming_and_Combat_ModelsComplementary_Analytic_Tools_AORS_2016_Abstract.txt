@@ -1,0 +1,47 @@
+                                              54th AORS 2016
+                              ABSTRACT SUBMISSION FORM
+Abstracts must be approved for public release or release to the foreign governments of
+Australia, Canada, France, Germany, the Netherlands, New Zealand, the Republic of Korea, and
+the United Kingdom.
+NOTE: It is the responsibility of the corresponding author to obtain the required release
+authority from their respective Foreign Disclosure Officer (FDO).
+Please email the completed and certified abstract submission form to the AORS Mailbox not
+later than 15 July 2016.
+                                    Security Classification: UNCLASSIFIED
+   Abstract:
+   Title: Wargaming and Combat Models: Complementary Analytic Tools
+   Keywords: wargames, combat models
+   Recommended Working Group Session(s): Wargaming
+   Corresponding Author:
+   Last: Appleget                 First: Jeffrey                                                 Org: Naval Postgraduate School
+   Street: 1411 Cunningham Road, GL-239
+   City:     Monterey                         State: CA                           Zip: 93943                   Country: USA
+   Phone Comm: 831-656-7674                   Fax Comm: 831-656-2595
+   Phone DSN:       756-7674                  Fax DSN:                       756-2595
+   Email: jaappleg@nps.edu
+   Additional Authors:
+   Last:                          First:                                                         Org:
+   Last:                          First:                                                         Org:
+   Last:                          First:                                                         Org:
+   Sponsor (for Contractors only):
+   Printed Name:                                                                                 Org:
+   Signature:
+   FDO Certification: I certify that this abstract has been reviewed and is (select one):
+      approved for public release.
+      releasable to these countries:___________________________________________________________
+   Printed Name:
+   Signature:                                                                                                Date: 11 July 2016
+                                                     Digitally signed by APPLEGET.JEFFREY.ALAN.1007422365
+                                                     DN: c=US, o=U.S. Government, ou=DoD, ou=PKI, ou=USN,
+                    APPLEGET.JEFFREY.ALAN.1007422365 cn=APPLEGET.JEFFREY.ALAN.1007422365
+                                                     Date: 2016.07.11 15:13:33 -07'00'
+
+                                            UNCLASSIFIED
+ Abstract:
+Wargames and computer-based combat simulations are both analytic tools that can be useful if
+properly used within the bounds of their limitations. Unfortunately, many organizations look for the
+single analytic tool that can be used to answer any military study question, and often organizations
+look to their combat simulations as the answer. The strengths and limitations of each tool will be
+addressed, and how the two tools can be used together in a study will be examined.
+                                            UNCLASSIFIED
+

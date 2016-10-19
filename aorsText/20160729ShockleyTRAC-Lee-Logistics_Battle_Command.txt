@@ -1,0 +1,56 @@
+                                           54th AORS 2016
+                            ABSTRACT SUBMISSION FORM
+Abstracts must be approved for public release or release to the foreign governments of
+Australia, Canada, France, Germany, the Netherlands, New Zealand, the Republic of Korea, and
+the United Kingdom.
+NOTE: It is the responsibility of the corresponding author to obtain the required release
+authority from their respective Foreign Disclosure Officer (FDO).
+Please email the completed and certified abstract submission form to the AORS Mailbox not
+later than 15 July 2016.
+                                   Security Classification: UNCLASSIFIED
+   Abstract:
+   Title: Logistics Battle Command
+   Keywords: AVA, Discrete Event Simulation, Probability, Stochastic, Distributions, Supply, Sustainment, Th
+   Recommended Working Group Session(s): Sustainment
+   Corresponding Author:
+   Last: Shockley                First: Jonathan                                             Org: TRADOC Analysis Center – Fort Lee
+   Street: 700 Quarters Road, Suite 210
+   City:     Fort Lee                     State: VA                           Zip: 23801-1703            Country: USA
+   Phone Comm: 804-765-1835               Fax Comm: 804-765-1456
+   Phone DSN:       536                   Fax DSN:                      536-1456
+   Email: jonathan.d.shockley.civ@mail.mil
+   Additional Authors:
+   Last:                         First:                                                      Org:
+   Last:                         First:                                                      Org:
+   Last:                         First:                                                      Org:
+   Sponsor (for Contractors only):
+   Printed Name:                                                                             Org:
+   Signature:
+   FDO Certification: I certify that this abstract has been reviewed and is (select one):
+      approved for public release.
+      releasable to these countries:___________________________________________________________
+                                      USA/AUS/CAN/FRA/DEU/NLD/NZL/ROK/GBR
+   Printed Name: Cynthia A. Acord, Foreign Disclosure Officer, TRAC-WSMR
+   Signature:                                                                                          Date: 07/25/16
+                                                 Digitally signed by ACORD.CYNTHIA.ANN.1115709280
+                    ACORD.CYNTHIA.ANN.1115709280 DN: c=US, o=U.S. Government, ou=DoD, ou=PKI, ou=USA,
+                                                 cn=ACORD.CYNTHIA.ANN.1115709280
+                                                 Date: 2016.07.25 15:01:02 -06'00'
+
+                                              UNCLASSIFIED
+ Abstract:
+The Logistics Battle Command (LBC) model, developed and used by the Training and Doctrine
+Command (TRADOC) Analysis Center, is a discrete event simulation written in Java that uses the
+Naval Postgraduate School's Simkit Application Programming Interface. LBC is currently used for
+comparative assessments of force designs, weapon systems, vehicles or concepts of support with
+respect to their impact on military logistics, but it is also being developed into a decision support tool
+for planners and logisticians with a target roll-out date of 2018.
+LBC provides some distinct modeling advantages by nesting transportation, communication, and
+planning networks. It may run deterministically or apply probability distributions to obtain stochastic
+results, making it ideally suited for use with experimental design. LBC accepts input from other tools
+such as Force Generator (FORGE), Joint Integrated Contingency Model (JICM), Attrition Distribution
+Tool (ADT), and Operations Logistics (OPLOG) Planner. This presentation will cover the recently
+integrated Threat Impact Assessment capability, which allows LBC to account for attrition and loss
+of supplies and supply distribution assets as a result of enemy actions against resupply operations.
+                                              UNCLASSIFIED
+

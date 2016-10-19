@@ -1,0 +1,67 @@
+---
+title: "AORS Tutorial"
+author: "Paul Gellerman"
+date: "October 18, 2016"
+output: html_document
+---
+
+#Analysis of 54th AORS Abstracts
+```{r echo=FALSE}
+PATH = '/home/pcgeller/54_AORStextanalytics'
+```
+### Install dependencies.
+```{r eval=FALSE}
+install.packages('pdf_tools')
+install.packages('stringr')
+```
+
+If you are using Linux (like most AWS images) you'll need to install poppler for pdf_tools via a terminal.
+```shell
+sudo apt-get install libpoppler-cpp-dev
+```
+
+### Munge
+**Convert .pdf to .txt**
+Each working group has its own folder and each abstract has it's own .pdf in the folder for the working group it's assigned to.
+```{r eval = FALSE}
+require('stringr')
+require('pdftools')
+
+dirs = list.files(file.path(PATH, 'aorsAbstracts'))
+files = list.files('./aorsAbstracts/', pattern = '*.pdf', recursive = TRUE)
+for(file in files) {
+  rawtext <- pdf_text(file.path(PATH, 'aorsAbstracts', file))
+  write(rawtext, file=file.path(PATH, 'aorsText', gsub('.pdf','.txt',basename(file))))
+}
+```
+**Format raw text into dataframe**
+```{r}
+txtfiles = list.files('./aorsText/')
+df = data.frame(title=character(),
+                org=character(),
+                abstract=character(),
+                stringsAsFactors = FALSE)
+                
+for(f in txtfiles) {
+  file = file.path(PATH, 'aorsText', f)
+  print(file)
+  #Read the text as a blob
+  text = readChar(file, file.info(file)$size)
+  #Remove all new lines
+  text = str_replace_all(text, '\n', ' ')
+  #Extract
+  #abstract = str_extract(text, '(?<=Abstract:).*(?=UNCLASSIFIED\\s*$)')
+  abstract = str_extract(text, '(.(?!Abstract:))+(?=UNCLASSIFIED\\s*$)')
+  abstract = str_replace(abstract, 'Abstract:', '')
+  abstract = str_trim(abstract)
+  title = str_extract(text, '(?<=Title:).*(?=Keywords|Author\\(s\\))')
+  title = str_trim(title)
+  print(title)
+  org = str_extract(text, '(?<=Org:).*(?=Street:)')
+  org = str_trim(org)
+  print(org)
+  newrow = c(title,org,abstract)
+
+  df[nrow(df)+1,] <- newrow
+}
+```

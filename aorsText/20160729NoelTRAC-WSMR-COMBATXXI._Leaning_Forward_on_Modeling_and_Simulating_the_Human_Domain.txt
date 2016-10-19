@@ -1,0 +1,53 @@
+                                           54th AORS 2016
+                            ABSTRACT SUBMISSION FORM
+Abstracts must be approved for public release or release to the foreign governments of
+Australia, Canada, France, Germany, the Netherlands, New Zealand, the Republic of Korea, and
+the United Kingdom.
+NOTE: It is the responsibility of the corresponding author to obtain the required release
+authority from their respective Foreign Disclosure Officer (FDO).
+Please email the completed and certified abstract submission form to the AORS Mailbox not
+later than 8 July 2016.
+                                  Security Classification: UNCLASSIFIED
+   Abstract:
+   Title: COMBATXXI: Leaning Forward on Modeling and Simulating the Human Domain
+   Keywords: modeling & simulation, human dimension, agent based modeling
+   Recommended Working Group Session(s):           Advances in OR & Technology (R&D), Modeling and Simulation (M&S)
+   Corresponding Author:
+   Last: Noel                   First: Ronald                                                Org: TRAC-WSMR
+   Street: TRADOC Analysis Center, TRAC-WSMR, Bldg. 1400, Martin Luther King Avenue
+   City:     WSMR                         State: NM                           Zip: 88002                 Country: USA
+   Phone Comm: 575-678-6723               Fax Comm: 575-678-6887
+   Phone DSN:       258-6723              Fax DSN:                      258-6887
+   Email: ronald.w.noel.civ@mail.mil
+   Additional Authors:
+   Last:                        First:                                                       Org:
+   Last:                        First:                                                       Org:
+   Last:                        First:                                                       Org:
+   Sponsor (for Contractors only):
+   Printed Name:                                                                             Org:
+   Signature:
+   FDO Certification: I certify that this abstract has been reviewed and is (select one):
+      approved for public release.
+      releasable to these countries:___________________________________________________________
+                                     USA/AUS/CAN/FRA/DEU/NLD/NZL/ROK/GBR
+   Printed Name: Cynthia A. Acord, Foreign Disclosure Officer, TRAC-WSMR
+   Signature:                                                                                          Date: 07/06/16
+                                                 Digitally signed by ACORD.CYNTHIA.ANN.1115709280
+                    ACORD.CYNTHIA.ANN.1115709280 DN: c=US, o=U.S. Government, ou=DoD, ou=PKI, ou=USA,
+                                                 cn=ACORD.CYNTHIA.ANN.1115709280
+                                                 Date: 2016.07.06 11:06:34 -06'00'
+
+                                             UNCLASSIFIED
+ Abstract:
+The Combined Arms Analysis Tool for the 21st Century (COMBATXXI), a high-resolution,
+entity-level, stochastic, combat simulation is the Army’s premier modeling and simulation tool for
+undertaking analyses of alternatives for future combat capabilities and conceptual systems.
+Increasingly, analysts are asked to evaluate capability gaps in support of Human Dimension
+initiatives. These initiatives require an amplified capability and fidelity to model and simulate the
+human in context. A paper from the National Academy of Science points to Agent Based Modeling
+(ABM) as the only type of modeling and simulation capable of capturing the human domain for
+analysis of human social, organizational, and doctrinal performance. A review of literature of ABM
+used in Human Dimension analysis will support this view. Implications for COMBATXXI, a form of
+ABM, will be discussed.
+                                             UNCLASSIFIED
+

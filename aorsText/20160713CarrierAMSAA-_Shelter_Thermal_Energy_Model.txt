@@ -1,0 +1,95 @@
+                                  AMSAA OPSEC COORDINATION FORM
+   Title:              Shelter Thermal Energy Model                            Author(s):
+                                                                                            David Carrier
+   Type of Format: I                  XDocument           D CD/Disk            Date: I 11512016      I Phone: I X-3682
+   Method of Release (Check Type of Release):
+           X Abstract                   I D Briefing I D Publication I D Web Posting I                       D Other
+   Purpose for Release:                                                   Date of Release or Presentation:
+   AORS Symposium                                                         5 July, 2016
+   Program Manager Approval Required: (Check One)                         DYES                            XNO
+                                             OPSEC Technical Reviewer <Branch ChieO
+   Office: I C3COPE Branch                                                        Ofc Symbol: I AMXAA-CC
+   Name                                                         Date              Approval Decision: (Check One)
+   Steven Chizmar                                               7/5/16            XCONCUR          D NONCONCUR
+      Intended Distribution is Statement A, approved for Public Release - Distribution is Unlimited
+   I certify that I am technically knowledgeable to review and approve the release of the information contained in
+   the enclosed format. I fully understand the threat connected with open source publications from hostile
+   intelligence sources and, in my judgment, the benefits of the release outweighs the potential damage to the
+   essential secrecy of the item in question. I, therefore, conclude that it is in the best interest of AMSAA, AMC,
+   Army or other DoD programs to release this information into the public domain.
+                                    Reviewer's      Signature~
+                                                                3~~
+                                                       Pro~ram Mana~er's     Review
+   Name                                                         Date          I Approval Decision: (Check One)
+                                                                              I D CONCUR           D NON CONCUR
+                                            PM's   Signature~
+                                         Public Affairs Office Representative (PAO) Review
+   Name            -                                            Date            Approval Decision: (Check One)
+               v ll.d u..  I ·     112.J-ij° hr; ()Jc.          7 /7/d<J/l, ~ONCUR
+                                                                                I
+                                                                                                   D NONCONCUR
+                                           PAO's Signature~~
+                                                                      C}od /~~~
+                                                                        /
+                                                         OPSEC Officer Review
+   Name                                                         Date            Approval Decision: (Check One)
+                 J    [,uJ ; ~    lfl:f1$h Y7 0  d,.._          717/ddt,, ~CONCUR                  D NONCONCUR
+                                                                   I
+                            OPSEC Officer's Signature~
+                                                                     ,,
+                                                                   n// ~             ~~
+                                                                   ,
+  Comments:               /I   c)  ~~ ·
+AMSAA Form 74-R (24 January 2011)
+Previous editions of this form are obsolete
+
+                                             54th AORS 2016
+                              ABSTRACT SUBMISSION FORM
+Abstracts must be approved for public release or release to the foreign governments of
+Australia, Canada, France, Germany, the Netherlands, New Zealand, the Republic of Korea, and
+the United Kingdom.
+NOTE: It is the responsibility of the corresponding author to obtain the required release
+authority from their respective Foreign Disclosure Officer (FOO).
+Please email the completed and certified abstract submission form to the AORS Mailbox not
+later than 15 July 2016.
+                                      Security Classification: UNCLASSIFIED
+   Abstract:
+   Title : AMSAA Shelter Thermal Energy Model
+   Keywords: Shelter, ECU, Operational Energy
+   Recommended Working Group Session(s) : Operational Energy
+   Corresponding Author:
+   Last:    Carrier                First: David                 Org: AMSAA
+   Street: 392 Hopkins Rd, ATTN :AMXAA-CC
+   City:     APG                            State: MD     Zip: 21005        Country: USA
+   Phone Comm : 410-278-3682                Fax Comm:
+   Phone DSN:       298-3682                Fax DSN:
+   Email:
+   Additional Authors:
+   Last:                           First :                      Org:
+   Last:                           First :                      Org:
+   Last:                           First:                       Org:
+   Sponsor (for Contractors only):
+   Printed Name:                                                Org:
+   Signature:
+   FOO Certification: I certify that this abstract has been reviewed and is (select one):
+   <:>approved for public release.
+   Oreleasable to th~unt_ries:
+   Printed Name:            u.c1 •t.l..  P@t~h /1. oJ..__
+   Signature:          ()M~~~
+                           ,
+                                                                          Date:   7/1 I.,k)I (,
+                                                                                       /
+                         I
+
+                                            UNCLASSIFIED
+Abstract:
+This presentation documents the Shelter Thermal Energy Model (STEM), AMSM's physics-based
+analysis tool that operates in the MATLAB® environment. With basic shelter information, the model
+can predict the thermal energy required to keep a structure at a desired internal temperature and
+humidity setting. It also uses the predicted thermal demand in conjunction with the Environmental
+Control Unit (ECU) performance specifications to predict electrical power consumption which
+ultimately contribute to fuel consumption rates based on connections to a generator or microgrid.
+STEM was developed by AMSM as an energy analysis tool to support multiple projects and inform
+science & technology decision making across the Department of Defense (DoD).
+                                            UNCLASSIFIED
+

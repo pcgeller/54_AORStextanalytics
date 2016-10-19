@@ -1,0 +1,59 @@
+                                               54th AORS 2016
+                             ABSTRACT SUBMISSION FORM
+Abstracts must be approved for public release or release to the foreign governments of
+Australia, Canada, France, Germany, the Netherlands, New Zealand, the Republic of Korea, and
+the United Kingdom.
+NOTE: It is the responsibility of the corresponding author to obtain the required release
+authority from their respective Foreign Disclosure Officer (FDO).
+Please email the completed and certified abstract submission form to the AORS Mailbox not
+later than 15 July 2016.
+                                     Security Classification: UNCLASSIFIED
+   Abstract:
+   Title: Identifying the Risks JLOTS Operations have on the Timing of a Campaign
+   Keywords: JLOTS, Modeling, Logistics, Campaign planning
+   Recommended Working Group Session(s): Current Operations, Sustainment, War gaming Combat
+   Corresponding Author:
+   Last: Hatch                     First: Sandra                                                 Org: Center for Army Analysis
+   Street: 6001 Geothals Rd
+   City:     FT Belvior                       State: VA                           Zip: 22060                    Country: USA
+   Phone Comm: 703-806-5438                   Fax Comm: 703-806-5743
+   Phone DSN:       312-656-5438              Fax DSN:                      312-656-5743
+   Email: Sandra.w.hatch.civ@mail.mil
+   Additional Authors:
+   Last:   Peterson                First: Stephen                                                Org: Center for Army Analysis
+   Last:   Dennie                  First: Ashley                                                 Org:
+   Last:                           First:                                                        Org:
+   Sponsor (for Contractors only):
+   Printed Name:                                                                                 Org:
+   Signature:
+   FDO Certification: I certify that this abstract has been reviewed and is (select one):
+      approved for public release.
+      releasable to these countries:___________________________________________________________
+   Printed Name: Martin Dubbs
+   Signature:                                                                                                Date: 15 July 2016
+                                                     Digitally signed by DUBBS.MARTIN.LUTHER.JR.1039126741
+                    DUBBS.MARTIN.LUTHER.JR.103912674 DN: c=US, o=U.S. Government, ou=DoD, ou=PKI, ou=USA,
+                                                     cn=DUBBS.MARTIN.LUTHER.JR.1039126741
+                    1                                Date: 2016.07.15 09:48:22 -04'00'
+
+                                            UNCLASSIFIED
+ Abstract:
+Significant time and resources are spent on determining how we would fight in a given situation
+against a specific enemy. A constraining factor that is often underestimated is how the forces got to
+the fight. While the Atlantic and Pacific oceans have provided natural barriers to invading enemies
+at home, they present a logistical problem that must be solved before we can deploy U.S. Military
+forces into hostile areas of operations. When planning a campaign, it is important for the warfighter
+to understand the impact Joint Logistics Over the Shore (JLOTS) operations would have on the
+timing, type and quantity of forces commanders will have available in the early stages of operations.
+Modeling the flow of various force packages through JLOTS operations clarifies a key factor that
+would impact the planning of a successful operation.
+In support of the Center for Army Analysis (CAA) campaign planning, the Deployment and Enablers
+Division (DE) developed a quick flow analysis (QFA) simulation tool that explicitly models
+intra-theater transportation. JLOTS operations use a constrained set of Army and Navy assets to
+move cargo from an Intermediate Staging Base (ISB) to shore at austere or damaged ports or
+beaches. By modeling the expected force flow, it can be determined when units would be available
+to participate in the warfight. Modeling various force packages and flow priorities through these
+operations provides the decision maker a better understanding of the impact intra-theater logistics
+constraints have on the campaign when this is the only avenue for troop entry.
+                                            UNCLASSIFIED
+

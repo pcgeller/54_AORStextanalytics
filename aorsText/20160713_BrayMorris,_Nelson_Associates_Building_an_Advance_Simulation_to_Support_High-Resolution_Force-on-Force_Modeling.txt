@@ -1,0 +1,61 @@
+                                          54th AORS 2016
+                            ABSTRACT SUBMISSION FORM
+Abstracts must be approved for public release or release to the foreign governments of
+Australia, Canada, France, Germany, the Netherlands, New Zealand, the Republic of Korea, and
+the United Kingdom.
+NOTE: It is the responsibility of the corresponding author to obtain the required release
+authority from their respective Foreign Disclosure Officer (FDO).
+Please email the completed and certified abstract submission form to the AORS Mailbox not
+later than 8 July 2016.
+                                  Security Classification: UNCLASSIFIED
+   Abstract:
+   Title: Building an Advanced Simulation to Support High-Resolution Force-on-Force Modeling
+   Keywords: Force-on-Force (FoF), System Capabilities, System-of-System, Future Capability Integration, M
+   Recommended Working Group Session(s): Future Capabilities, Modeling and Simulation
+   Corresponding Author:
+   Last: Bray                   First: Britt                  Org: Morris, Nelson, and Associates
+   Street: 8920 Treeland Lane
+   City:     Dayton                       State: OH     Zip: 45458                            Country: USA
+   Phone Comm: 937-422-7383               Fax Comm:
+   Phone DSN:                             Fax DSN:
+   Email: britt.bray@mnallc.com
+   Additional Authors:
+   Last:   Ward                 First: Beth                   Org: Army Research Laboratory
+   Last:   Dibelka              First: Russell                Org: Army Research Laboratory
+   Last:   Nelson               First: John                   Org: Morris, Nelson, and Associates
+   Sponsor (for Contractors only):
+   Printed Name: Beth S Ward                                  Org: Army Research Laboratory
+   Signature: WARD.BETH.S.1229196053                           Digitally signed by WARD.BETH.S.1229196053
+                                                               DN: c=US, o=U.S. Government, ou=DoD, ou=PKI, ou=USA, cn=WARD.BETH.S.1229196053
+                                                               Date: 2016.07.13 12:35:34 -04'00'
+   FDO Certification: I certify that this abstract has been reviewed and is (select one):
+      approved for public release.
+      releasable to these countries:___________________________________________________________
+   Printed Name:
+   Signature:                                                                           Date:
+
+                                             UNCLASSIFIED
+ Abstract:
+Since the 1960s onset of modern FoF modeling, simulations have been driven by task sequences
+defined by computer programmers. That was necessary since for many decades, military
+operators/warfighters had no standard task language. In the 1990s, official Joint and Service task
+lists were developed, establishing formal, doctrinally-linked semantics for the warfighter. This
+language construct enables evaluation of individual system contribution to collective tasks (the
+singular source for System-of-System conduct), mission performance and effectiveness. Also since
+the 1960s, FoF models have employed combat entities with assigned, unchanging attributes.
+Interactions have focused on ballistic events, on pristine platforms, for kill/ no-kill outcomes.
+However, since the 1980s, platform models have existed to support detailed, mutable geometry so
+as to maintain a running status of component state space. This state space can be mapped to
+platform capabilities and then compared to task requirements per the formal task descriptors.
+In order to support a high-resolution FoF model demonstration, a commercial tool (EXTEND-SIM)
+has been chosen as the integrating implementation tool. Much of the model environment is based
+on Army-generated data bases and analysis codes (e.g., MUVES-S2). Specifically, 1] a
+three-phase mission will be described using the official Universal and Army Universal Task Lists
+(UJTLs/AUTLs) setting the official task/ conditions/ standards paradigm, 2] high-resolution 3-D solid
+geometric descriptions of the fighting platforms (> 3000 object pieces) in dynamic mode will be used
+to estimate damage/ repair interactions with ballistic, logistic, etc., factors, and 3] employ Monte
+Carlo methods for mission threads and interactions to gain insight into the statistical outcome space.
+We will describe and show some of the high-resolution metrics that are generated and some of the
+key remaining challenges.
+                                             UNCLASSIFIED
+

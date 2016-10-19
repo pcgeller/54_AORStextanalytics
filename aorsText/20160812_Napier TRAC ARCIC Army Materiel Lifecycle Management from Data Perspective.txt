@@ -1,0 +1,68 @@
+                                             54th AORS 2016
+                            ABSTRACT SUBMISSION FORM
+Abstracts must be approved for public release or release to the foreign governments of
+Australia, Canada, France, Germany, the Netherlands, New Zealand, the Republic of Korea, and
+the United Kingdom.
+NOTE: It is the responsibility of the corresponding author to obtain the required release
+authority from their respective Foreign Disclosure Officer (FDO).
+Please email the completed and certified abstract submission form to the AORS Mailbox not
+later than 15 July 2016.
+                                   Security Classification: UNCLASSIFIED
+   Abstract:
+   Title: Army Materiel Lifecycle Management from a data perspective
+   Keywords: Acquisitions, Capabilities, Equipping, Modernization, Materiel, Future, Data Integration
+   Recommended Working Group Session(s): Future Capabilities, Force Development, Advances in OR&Techn
+   Corresponding Author:
+   Last: NAPIER                  First: TODD                                                   Org: TRADOC - ARCIC
+   Street: 950 Jefferson Ave
+   City:     Fort Eustis                    State: VA                           Zip: 23604-5700            Country: USA
+   Phone Comm: 757-501-5592                 Fax Comm:
+   Phone DSN:                               Fax DSN:
+   Email: todd.a.napier.mil@mail.mil
+   Additional Authors:
+   Last:                         First:                                                        Org:
+   Last:                         First:                                                        Org:
+   Last:                         First:                                                        Org:
+   Sponsor (for Contractors only):
+   Printed Name:                                                                               Org:
+   Signature:
+   FDO Certification: I certify that this abstract has been reviewed and is (select one):
+      approved for public release.
+      releasable to these countries:___________________________________________________________
+                                      REL TO USA, FVEY, FRA, DEU, NLD, KOR
+   Printed Name: Amy Schroeder
+   Signature:                                                                                            Date: 12 AUG 2016
+                                                   Digitally signed by SCHROEDER.AMY.MARIE.1099211926
+                                                   DN: c=US, o=U.S. Government, ou=DoD, ou=PKI, ou=USA,
+                    SCHROEDER.AMY.MARIE.1099211926 cn=SCHROEDER.AMY.MARIE.1099211926
+                                                   Date: 2016.08.12 11:17:19 -04'00'
+
+                                             UNCLASSIFIED
+ Abstract:
+Army Materiel Lifecycle Management from a data perspective.
+Realities of a budget constrained future with more capable threats require more sophisticated use of
+Army data systems, information technology and analytical methods to provide senior Army leaders
+with information that permits more efficient use of appropriated dollars.
+This brief will talk about how alignment of stove piped data across The Army Materiel Lifecycle
+process allows traceability of dollars across all product lines. How current acquisition programs
+align to capabilities needed by the Army and how capability gaps can be closed through targeted
+Science and Technology. An objective system could help manage seven appropriations containing
+over 20% of the Army budget with over $50B per year under Capital Investment.
+How we can link data to provide:
+1) relative value scores for Army Required Capabilities (See ARCIC CNA)
+2) linkages to current programmed and fielded materiel solutions (Acquisition Programs)
+3) links system of systems materiel to allow for more control over capability set fielding
+4) visibility over production schedules and dollar allocation across all product lines
+5) ability to aggregate individual programs into resource portfolios, Army Warfighting Challenges,
+Capabilities, Capability Gaps or any other standard aggregation that can be mapped to individual
+pieces of equipment
+6) facilitates divestiture and modernization path decisions
+7) informs materiel readiness status of fielded units
+8) informs what impacts are expected due to resource decisions at a State and local level
+9) provides more efficient program and project management of programs
+10) facilitates best practice and sharing of specialized programs
+Overall, the data system needs to leverage the strength of the Army Business Systems, create data
+linkages and link materiel solutions to more efficiently and effectively manage programs, manage
+portfolios and make resource informed value decisions based on Army Capital Investments.
+                                             UNCLASSIFIED
+

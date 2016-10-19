@@ -1,0 +1,54 @@
+                                            54th AORS 2016
+                              ABSTRACT SUBMISSION FORM
+Abstracts must be approved for public release or release to the foreign governments of
+Australia, Canada, France, Germany, the Netherlands, New Zealand, the Republic of Korea, and
+the United Kingdom.
+NOTE: It is the responsibility of the corresponding author to obtain the required release
+authority from their respective Foreign Disclosure Officer (FDO).
+Please email the completed and certified abstract submission form to the AORS Mailbox not
+later than 8 July 2016.
+                                    Security Classification: UNCLASSIFIED
+   Abstract:
+   Title: Blue Attack Low-level Entity Simulation (BATTLES) Development for a Mission Command Analysis Concept
+   Keywords: mission command analysis, military decision-making process
+   Recommended Working Group Session(s): Modeling & Simulation (M&S)
+   Corresponding Author:
+   Last: Gallagher               First: Kerry                                                  Org: TRAC-WSMR
+   Street: TRADOC Analysis Center, TRAC-WSMR, Bldg. 1400, Martin Luther King Avenue
+   City:     WSMR                           State: NM                           Zip: 88007                 Country: USA
+   Phone Comm: 575 678-7172                 Fax Comm: 575-678-6887
+   Phone DSN:       258-7172                Fax DSN:                      258-6887
+   Email: kerry.j.gallagher.civ@mail.mil
+   Additional Authors:
+   Last:                         First:                                                        Org:
+   Last:                         First:                                                        Org:
+   Last:                         First:                                                        Org:
+   Sponsor (for Contractors only):
+   Printed Name:                                                                               Org:
+   Signature:
+   FDO Certification: I certify that this abstract has been reviewed and is (select one):
+      approved for public release.
+      releasable to these countries:___________________________________________________________
+                                       USA/AUS/CAN/FRA/DEU/NLD/NZL/ROK/GBR
+   Printed Name: Cynthia A. Acord, Foreign Disclosure Officer, TRAC-WSMR
+   Signature:                                                                                            Date: 07/06/16
+                                                   Digitally signed by ACORD.CYNTHIA.ANN.1115709280
+                    ACORD.CYNTHIA.ANN.1115709280   DN: c=US, o=U.S. Government, ou=DoD, ou=PKI, ou=USA,
+                                                   cn=ACORD.CYNTHIA.ANN.1115709280
+                                                   Date: 2016.07.06 11:03:59 -06'00'
+
+                                           UNCLASSIFIED
+ Abstract:
+BATTLES, a quick-turn force-on-force model is in development by the United States Army Training
+and Doctrine Command (TRADOC) Analysis Center (TRAC) to support a conceptual framework for
+Mission Command analysis. The analysis framework is based on the operations process and is
+designed to inform warfighter planning decisions by measuring operational outcomes of Friendly
+courses of action against possible Threat courses of action; e.g., most likely and most dangerous.
+Initial planning is done through an abbreviated military decision-making process, followed by
+employment of the force-on-force model to represent and support follow-on phases of the operations
+process which include prepare, execute, and assess phases. The desired result is an approach and
+tool to inform complex decision-making for relevant scenarios.
+This presentation will describe the development and components of BATTLES, explain how entity
+behaviors are modeled, and discuss the modeling framework.
+                                           UNCLASSIFIED
+

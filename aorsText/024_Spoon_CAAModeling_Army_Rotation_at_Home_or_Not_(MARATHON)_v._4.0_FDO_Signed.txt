@@ -1,0 +1,56 @@
+                                                54th AORS 2016
+                              ABSTRACT SUBMISSION FORM
+Abstracts must be approved for public release or release to the foreign governments of
+Australia, Canada, France, Germany, the Netherlands, New Zealand, the Republic of Korea, and
+the United Kingdom.
+NOTE: It is the responsibility of the corresponding author to obtain the required release
+authority from their respective Foreign Disclosure Officer (FDO).
+Please email the completed and certified abstract submission form to the AORS Mailbox not
+later than 15 July 2016.
+                                      Security Classification: UNCLASSIFIED
+   Abstract:
+   Title: Modeling Army Rotation at Home or Not (MARATHON) v. 4.0
+   Keywords: Modeling and Simulation, Simulation Development, Force Structure Analysis, SRM
+   Recommended Working Group Session(s): Either Force Development, or M&S, or R&D
+   Corresponding Author:
+   Last: Spoon                      First: Thomas                                                 Org: Center for Army Analysis (CAA)
+   Street: 6001 Goethals Rd
+   City:     Ft. Belvoir                       State: VA                           Zip: 22060                    Country: USA
+   Phone Comm: 210-221-1064                    Fax Comm:
+   Phone DSN:                                  Fax DSN:
+   Email: thomas.l.spoon.civ@mail.mil
+   Additional Authors:
+   Last:                            First:                                                        Org:
+   Last:                            First:                                                        Org:
+   Last:                            First:                                                        Org:
+   Sponsor (for Contractors only):
+   Printed Name:                                                                                  Org:
+   Signature:
+   FDO Certification: I certify that this abstract has been reviewed and is (select one):
+      approved for public release.
+      releasable to these countries:___________________________________________________________
+   Printed Name: Martin Dubbs
+   Signature:                                                                                                 Date: 17 Aug 2016
+                                                      Digitally signed by DUBBS.MARTIN.LUTHER.JR.1039126741
+                     DUBBS.MARTIN.LUTHER.JR.103912674 DN: c=US, o=U.S. Government, ou=DoD, ou=PKI, ou=USA,
+                                                      cn=DUBBS.MARTIN.LUTHER.JR.1039126741
+                     1                                Date: 2016.08.17 11:58:25 -04'00'
+
+                                             UNCLASSIFIED
+ Abstract:
+Modeling Army Rotation at Home or Not (MARATHON) is the premier force structure analysis
+platform for the Army. The Center for Army Analysis (CAA) routinely uses MARATHON for
+high-visibility projects, including Total Army Analysis (TAA), Operational Availability (OA), the
+Quadrennial Defense Review, and the National Commission on the Future of the Army. With its
+inception in 2003, CAA has enhanced and expanded MARATHON to keep pace with the
+ever-growing complexities of simulating Total-Army supply and demand scenarios against disparate,
+detailed force generation and deployment policies. MARATHON’s latest evolution - v. 4.0 - presents
+simultaneous advancements in performance, flexibility, scalability, and portability with no cost in
+licensing fees or dependence on proprietary software beyond the Java Virtual Machine (JVM), and
+is designed to meet the challenges of analyzing the Sustainable Readiness Model, large-scale force
+structure portfolio analysis, and more. Additionally, MARATHON 4.0 brings a growing suite of
+dynamic animation capabilities to the table, along with a Zoomable User Interface (ZUI) for
+impressive interactive visuals. This presentation will detail advancements in Marathon 4.0, and
+relate them to requirements driven by TAA and SRM.
+                                             UNCLASSIFIED
+

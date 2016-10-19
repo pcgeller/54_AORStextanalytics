@@ -1,0 +1,81 @@
+                               AMSAA OPSEC COORDINATION FORM
+                                                                                          Toda 's Date: 30 June 2016
+                                                                                          Release Date: s July 2016
+SECTION A: Completed by Author
+   Title:         Variable Shape Factor in Casualty Estimation
+Author(s):
+                  Matthew A. Rosenblatt; James R. Way
+Method of Release:               I Abstract                           I PM Approval Required: I      D Yes      ~No
+Purpose for Release:             IArmy Operations Research Symposium, November 2016
+SECTIONB: Pro2ram Mana2er (PM) Review
+Name:                                                                               '2:5.
+Title:
+Approval Decision:                   D CONCUR              D NONCONCUR
+                                                                                   ervisor
+Intended Distribution is Statement A: A                          roved for Public Release; Distribution is Unlimited.
+I certify that I am technically knowledgeable to review and approve the release of the information contained in
+the above named document. I fully understand the threat from hostile intelligence sources connected with open
+source publications. In my judgment, the benefit of release outweighs the potential damage to the essential
+secrecy of the item. Therefore, I conclude that it is in the best interest of AMSAA, AMC, Army and/or other
+DoD ro ams to release this information into the ublic domain.
+Name:                            George E. Steiger , Ph.D.                          '2:5.
+Title:                           Chief, Soldier Systems Branch , WSAD
+A roval Decision:                         CONCUR           0 NONCONCUR
+SECTION D: Public Affairs Officer PAO Re resentative Review
+Name:
+A roval Decision:
+SECTION F: Comments
+    AMSAA Fonn 74-R (10 April 2012)
+    Previous editions of this fonn are obsolete
+
+                                            54th AORS 2016
+                             ABSTRACT SUBMISSION FORM
+Abstracts must be approved for public release or release to the foreign governments of
+Australia, Canada, France, Germany, the Netherlands, New Zealand, the Republic of Korea, and
+the United Kingdom .
+NOTE: It is the responsibility of the corresponding author to obtain the required release
+authority from their respective Foreign Disclosure Officer (FOO).
+Please email the completed and certified abstract submission form to the AORS Mailbox not
+later than 15 July 2016.
+                                   Security Classification: UNCLASSIFIED
+   Abstract:
+   Title : Variable Shape Factor in Casualty Estimation
+   Keywords : Personal Protection , Fragment Shape, CASRED, FBAR , ICEM, JMAE
+   Recommended Working Group Session(s):         Modeling and Simulation , Advances in OR and Tech .
+   Corresponding Author:
+   Last : Rosenblatt             First : Matthew              Org: AMSAA
+   Street: 328 Hopkins Rd
+   City:     APG                           State: MD    Zip: 21005-5071     Country: USA
+   Phone Comm: 410-278-2041                Fax Comm :
+   Phone DSN:       298-2041               Fax DSN:
+   Email: matthew.a.rosenblatt.civ@mail.mil
+   Additional Authors:
+   Last :   Way                  First : James                Org: AM SAA
+   Last:                         First :                      Org:
+   Last:                         First :                      Org:
+   Sponsor (for Contractors only):
+   Printed Name:                                              Org:
+   Signature :
+   FOO Certification: I certify that this abstract has been reviewed and is (select one):
+   <:>approved for public release .
+   Oreleasable to these countries:
+   Printed Name:       eru..d: µ, Pwt-i·.rAnc<-P<-
+   Signature:            ( )/,1~~~                                       Date:    7 /ti?/~/(,,,
+                           ,                                                        /  I
+
+                                             UNCLASSIFIED
+ Abstract:
+In modeling the effectiveness of personal protection systems (body armor and vests) against the
+threat of fragmenting munitions, the shape of the incoming fragments plays an important role . Both
+older models (such as General Full Spray and CASRED) and newer ones (such as ICEM and
+JMAE) have assumed that all fragments from a given munition have the same shape. Meanwhile,
+measurements and studies at the Army Research Laboratory and Natick Soldier Center have shown
+that such fragment shape factors follow a distribution : sometimes normal, sometimes log-normal,
+sometimes other. AMSAA modified the CASRED and ICEM models to accept distributions from
+these studies, plus distributions supplied by the Aberdeen Test Center. Comparing variable shape
+factor model results with those using a fixed shape factor, AMSAA found that although there is some
+difference in probability of incapacitation versus range averaged over all azimuth angles from the
+burst, there are angles at which using a fixed shape factor can lead to significant overconfidence in
+the effectiveness of an armor system in protecting the soldier against fragments.
+                                              UNCLASSIFIED
+

@@ -1,0 +1,55 @@
+                                           54th AORS 2016
+                             ABSTRACT SUBMISSION FORM
+Abstracts must be approved for public release or release to the foreign governments of
+Australia, Canada, France, Germany, the Netherlands, New Zealand, the Republic of Korea, and
+the United Kingdom.
+NOTE: It is the responsibility of the corresponding author to obtain the required release
+authority from their respective Foreign Disclosure Officer (FDO).
+Please email the completed and certified abstract submission form to the AORS Mailbox not
+later than 15 July 2016.
+                                   Security Classification: UNCLASSIFIED
+   Abstract:
+   Title: Cross Service Fixed-Wing Cost Estimation
+   Keywords: cost estimation, fixed-wing
+   Recommended Working Group Session(s): Force Development
+   Corresponding Author:
+   Last: Shingleton              First: Jarrod                                               Org: TRAC-Monterey
+   Street: 700 Dyer Road
+   City:     Monterey                      State: CA                          Zip: 93943                 Country: USA
+   Phone Comm: 831~6566271                 Fax Comm:
+   Phone DSN:                              Fax DSN:
+   Email: jarrod.s.shingleton.mil@mail.mil
+   Additional Authors:
+   Last:                         First:                                                      Org:
+   Last:                         First:                                                      Org:
+   Last:                         First:                                                      Org:
+   Sponsor (for Contractors only):
+   Printed Name:                                                                             Org:
+   Signature:
+   FDO Certification: I certify that this abstract has been reviewed and is (select one):
+      approved for public release.
+      releasable to these countries:___________________________________________________________
+                                      USA/AUS/CAN/FRA/DEU/NLD/NZL/ROK/GBR
+   Printed Name: Cynthia A. Acord, Foreign Disclosure Officer, TRAC-WSMR
+   Signature:                                                                                          Date: 07/27/16
+                                                 Digitally signed by ACORD.CYNTHIA.ANN.1115709280
+                    ACORD.CYNTHIA.ANN.1115709280 DN: c=US, o=U.S. Government, ou=DoD, ou=PKI, ou=USA,
+                                                 cn=ACORD.CYNTHIA.ANN.1115709280
+                                                 Date: 2016.07.27 11:17:42 -06'00'
+
+                                              UNCLASSIFIED
+ Abstract:
+The U.S. Army Training and Doctrine Command (TRADOC) Analysis Center (TRAC), in the conduct
+of analyses of alternatives (AoA) to assess materiel acquisition, requires the ability to compute
+alternative capabilities’ operational costs to meet mission demands. These considerations are not
+limited to Army-proposed capabilities, but often include Joint capabilities as well, complicating the
+comparison of the costs to employ materiel solutions.
+This challenge is especially acute when assessing costs of munitions delivered from platforms
+operated by one of the Army's sister services – strict comparisons of life cycle costs are inadequate.
+The analytic community and senior decision makers desire a method to compare costs to conduct
+an attack of a given target with alternative means that include aerial (rotary wing, fixed wing) or
+surface (ship, ground launcher) platforms. This presentation will focus on methodologies used by the
+Air Force and Navy to develop fixed wing operating and support cost estimates and how they may
+be used to develop mission costs that are equitable for all systems considered in an analysis.
+                                              UNCLASSIFIED
+

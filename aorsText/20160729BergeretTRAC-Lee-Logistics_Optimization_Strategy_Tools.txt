@@ -1,0 +1,54 @@
+                                           54th AORS 2016
+                             ABSTRACT SUBMISSION FORM
+Abstracts must be approved for public release or release to the foreign governments of
+Australia, Canada, France, Germany, the Netherlands, New Zealand, the Republic of Korea, and
+the United Kingdom.
+NOTE: It is the responsibility of the corresponding author to obtain the required release
+authority from their respective Foreign Disclosure Officer (FDO).
+Please email the completed and certified abstract submission form to the AORS Mailbox not
+later than 15 July 2016.
+                                   Security Classification: UNCLASSIFIED
+   Abstract:
+   Title: Logistics Optimization Strategy Tools
+   Keywords: Logistics Optimization, OPLOG Planner, Tableau, Dashboard, LIA, Science & Technology
+   Recommended Working Group Session(s): Sustainment
+   Corresponding Author:
+   Last: Bergeret                First: Gregory                                              Org: TRADOC Analysis Center – Fort Lee
+   Street: 700 Quarters Road, Suite 210
+   City:     Fort Lee                     State: VA                           Zip: 23801-1703            Country: USA
+   Phone Comm: 804-765-2545               Fax Comm: 804-765-1456
+   Phone DSN:       536                   Fax DSN:
+   Email: gregory.f.bergeret.civ@mail.mil
+   Additional Authors:
+   Last:   Van Straaten          First: Nicklas                                              Org: TRADOC Analysis Center – Fort Lee
+   Last:                         First:                                                      Org:
+   Last:                         First:                                                      Org:
+   Sponsor (for Contractors only):
+   Printed Name:                                                                             Org:
+   Signature:
+   FDO Certification: I certify that this abstract has been reviewed and is (select one):
+      approved for public release.
+      releasable to these countries:___________________________________________________________
+                                      USA/AUS/CAN/FRA/DEU/NLD/NZL/ROK/GBR
+   Printed Name: Cynthia A. Acord, Foreign Disclosure Officer, TRAC-WSMR
+   Signature:                                                                                          Date: 07/25/16
+                                                 Digitally signed by ACORD.CYNTHIA.ANN.1115709280
+                    ACORD.CYNTHIA.ANN.1115709280 DN: c=US, o=U.S. Government, ou=DoD, ou=PKI, ou=USA,
+                                                 cn=ACORD.CYNTHIA.ANN.1115709280
+                                                 Date: 2016.07.25 09:30:51 -06'00'
+
+                                             UNCLASSIFIED
+ Abstract:
+The Army is looking to increase efficiencies wherever possible in order to become a leaner force of
+the future. Many of the Army’s Science and Technology (S&T) initiatives are working towards efforts
+that can optimize logistics, including alternative fuels and power generation, autonomous systems,
+micro/smart grids, high energy lasers, alternative sources of water, and additive manufacturing. In
+order to assess which efforts can provide the best efficiencies, Logistics Innovation Agency (LIA)
+asked TRAC to conduct analysis to identify where and to what degree these S&T initiatives can
+generate savings. Many of the efforts are in a premature state of development, requiring certain
+assumptions to provide quantitative data. The study team used Tableau software to create a
+dashboard incorporating the Operational Logistics (OPLOG) Planner database to build units and
+scenarios. This presentation will address the study plan and methodology, while also providing
+some insights into incorporating new tools with existing platforms and overcoming challenges.
+                                             UNCLASSIFIED
+

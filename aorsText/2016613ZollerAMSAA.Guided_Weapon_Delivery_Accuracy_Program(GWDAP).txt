@@ -1,0 +1,89 @@
+                                 AMSAA OPSEC COORDINATION FORM
+                                                                                         Zachary Zoller
+   Title:       Guided Weapon Delivery Accuracy Program                   Author(s):
+                (GWDAP)
+   Type of Format: l                  IZI Document      ·CD/Disk          Date: I 7/11/2016 I Phone: I 278-6621
+   Method of Release (Check Type of Release):
+           181 Abstract                I 0 Briefing       I  D Publication   I   D Web Posting        I    0 Other
+   Puroose for Release:                                               Date of Release or Presentation:
+  ·conference (AORS)                                                  2-3 Nov 2016
+   Program Manager Approval Required: (Check One)                     DYES                              ~NO
+                                             OPSEC Technical Reviewer (Branch Chief)
+   Office: I Artille!Y & A viati on Systems Branch, WSAD                    OfcSymbol: I AMXAA-WA
+   Name                                                       Date          Approval Decision: (Check One)
+   Charlotte C. Evering                                       11 July       181 CONCUR             • NONCONCUR
+                                                              2016
+     Intended Distribution is Statement A, annroved for Public Release - Distribution is Unlimited
+   I certify that I am technically knowledgeable to review and approve the release of the information contained in
+   the enclosed format. I fully understand the threat connected with open source publications from hostile
+   intelligence sources and, in my judgment, the benefits of the release outweighs the potential damage to the
+   essential secrecy of the item in question. I, therefore, conclude that it is in the best interest of AMSAA, AMC,
+   Army or other DoD programs to release this infonnation into the public domain.
+                                    Reviewer's Signature--
+                                                                ()~~
+                                                    Program Mana2er's Review
+   Name                                                       Date        I Anoroval Decision: (Check One)
+                                                                          I DCONCUR               D NONCONCUR
+                                            PM's Signature--
+   Name                                                                         roval Decision: Check One
+                      u_tf., '{-l._                                                               D NONCONCUR
+   Name                                                                         roval Decision: Check One
+                                                                                CONCUR              · NONCONCUR
+                           OPSEC Officer's Signature-
+  Comments:
+AMSAA Fonn 74-R (24 January 2011)
+Previous editions of this form are obsolete
+
+                                           54th AORS 2016
+                             ABSTRACT SUBMISSION FORM
+Abstracts must be approved for public release or release to the foreign governments of
+Australia, Canada, France, Germany, the Netherlands, New Zealand, the Republic of Korea, and
+the United Kingdom.
+NOTE: It is the responsibility of the corresponding author to obtain the required release
+authority from their respective Foreign Disclosure Officer (FOO).
+Please email the completed and certified abstract submission form to the AORS Mailbox not
+later than 15 July 2016.
+                                   Security Classification: UNCLASSIFIED
+   Abstract:
+   Title: Guided Weapon Delivery Accuracy Program (GWDAP)
+   Keywords: Analysis, Performance, Artillery, Engagement, Precision , Guided , Live Fire, Test and E
+   Recommended Working Group Session(s):          Modeling and Simulation
+   Corresponding Author:
+   Last:   Zoller                First : Zachary               Org: AMSAA
+   Street:   392 Hopkins Rd
+   City:     APG                           State: MD     Zip: 21005         Country: USA
+   Phone Comm :     410-278-6621           Fax Comm: 410-278-6632
+   Phone DSN :      298-6621               Fax DSN:    298-6632
+   Email: zachary.p.zoller.civ@mail.mil
+   Additional Authors:
+   Last:                         First:                        Org:
+   Last:                         First:                        Org:
+   Last:                         First:                        Org:
+   Sponsor (for Contractors only):
+   Printed Name:                                               Org:
+   Signature:
+   FOO Certification: I certify that this abstract has been reviewed and is (select one):
+   (?°)approved for public release.
+   Oreleasable to these countries:
+   Printed Name:        ~./ A,t~ (~ ~ - '~        -
+                                            ,,,_, ,~  J.
+   Signature:           LJ,;d~ /?~~                                       Date:   I/ /)£J ~., d<J/(,.,,
+                          ,                                                           /
+
+                                                              ~
+                                            UNCLASSIFIED
+Abstract:
+The Guided Weapon Delivery Accuracy Program (GWDAP) models GPS-guided delivery accuracy
+based on a simple error budget that combines specific GPS constellation errors with weapon GPS
+receiver and guidance and control errors to provide improved data characterization .
+GPS-guided artillery weapon delivery accuracy has always been estimated by computing a static set
+data binned into one or more firing conditions and based on a limited empirical data. This study
+looks at the feasibility of implementing Army GPS-guided weapons into the air-to-surface solution to
+GPS-guided weapon delivery accuracy, known as GWDAP. GWDAP predicts the delivery accuracy
+of GPS-guided weapons based on weapon terminal angle and satellite positions to provide a more
+robust delivery accuracy solution than a single CEP based on limited live fire test conditions.
+Multiple data sources, such as validated simulations or receiver specifications data sheets, can be
+used to calibrate the GWDAP inputs in order to improve the delivery accuracy characterization of
+GPS-guided weapon systems.
+                                            UNCLASSIFIED
+

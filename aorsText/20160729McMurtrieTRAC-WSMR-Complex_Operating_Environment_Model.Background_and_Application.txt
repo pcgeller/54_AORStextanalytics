@@ -1,0 +1,56 @@
+                                           54th AORS 2016
+                            ABSTRACT SUBMISSION FORM
+Abstracts must be approved for public release or release to the foreign governments of
+Australia, Canada, France, Germany, the Netherlands, New Zealand, the Republic of Korea, and
+the United Kingdom.
+NOTE: It is the responsibility of the corresponding author to obtain the required release
+authority from their respective Foreign Disclosure Officer (FDO).
+Please email the completed and certified abstract submission form to the AORS Mailbox not
+later than 15 July 2016.
+                                  Security Classification: UNCLASSIFIED
+   Abstract:
+   Title: Complex Operating Environment Model: Background and Application
+   Keywords: Complex operating environment, social science, PMESII, HSCB
+   Recommended Working Group Session(s): Future Capabilities
+   Corresponding Author:
+   Last: McMurtrie              First: Thomas                                                Org: TRAC-WSMR
+   Street: TRADOC Analysis Center, TRAC-WSMR, BLDG. 1400, Martin Luther Kin Avenue
+   City:     WSMR                         State: NM                           Zip: 88002                 Country: USA
+   Phone Comm: 575-678-5806               Fax Comm: 575-678-6887
+   Phone DSN:       258-5806              Fax DSN:                      258-6887
+   Email: thomas.h.mcmurtrie.mil@mail.mil
+   Additional Authors:
+   Last:   Holden               First: Sarah                                                 Org: TRAC-WSMR
+   Last:                        First:                                                       Org:
+   Last:                        First:                                                       Org:
+   Sponsor (for Contractors only):
+   Printed Name:                                                                             Org:
+   Signature:
+   FDO Certification: I certify that this abstract has been reviewed and is (select one):
+      approved for public release.
+      releasable to these countries:___________________________________________________________
+                                     USA/AUS/CAN/FRA/DEU/NLD/NZL/ROK/GBR
+   Printed Name: Cynthia A. Acord, Foreign Disclosure Officer, TRAC-WSMR
+   Signature:                                                                                          Date: 07/06/16
+                                                 Digitally signed by ACORD.CYNTHIA.ANN.1115709280
+                    ACORD.CYNTHIA.ANN.1115709280 DN: c=US, o=U.S. Government, ou=DoD, ou=PKI, ou=USA,
+                                                 cn=ACORD.CYNTHIA.ANN.1115709280
+                                                 Date: 2016.07.06 11:10:17 -06'00'
+
+                                            UNCLASSIFIED
+ Abstract:
+The Complex Operating Environment Model (COEM) is a generic network of interdependent and
+interacting social science and data validated relationship models that describe the political, military,
+economic, social, information, infrastructure (PMESII) operational variables of a country or region.
+COEM’s deterministic simulation is designed for investigating human, social, cultural, and behavioral
+impacts resulting from changes in the environment. COEM can also be used as a simulation
+environment to integrate with models representing specific mission sets or capabilities within a
+complex operating environment.
+The model may be populated with data specific to a country or regional area of interest. The
+resulting interdependent and interoperable models provide decision makers with a deterministic
+outcome of the PMESII effects for military missions in a complex environment.
+This presentation will discuss TRAC’s approach to developing this capability as well as how this
+capability has been applied to support an inquiry into the effects of a proposed concept on a region’s
+PMESII environment.
+                                            UNCLASSIFIED
+

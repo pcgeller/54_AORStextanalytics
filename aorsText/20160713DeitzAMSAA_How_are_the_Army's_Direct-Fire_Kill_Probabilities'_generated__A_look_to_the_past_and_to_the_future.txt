@@ -1,0 +1,65 @@
+                                           54th AORS 2016
+                            ABSTRACT SUBMISSION FORM
+Abstracts must be approved for public release or release to the foreign governments of
+Australia, Canada, France, Germany, the Netherlands, New Zealand, the Republic of Korea, and
+the United Kingdom.
+NOTE: It is the responsibility of the corresponding author to obtain the required release
+authority from their respective Foreign Disclosure Officer (FDO).
+Please email the completed and certified abstract submission form to the AORS Mailbox not
+later than 8 July 2016.
+                                   Security Classification: UNCLASSIFIED
+   Abstract:
+   Title: How are the Army's Direct-Fire 'Kill Probabilities' generated? A look to the past and to the future!
+   Keywords: Direct-Fire, Standard Damage Assessment List, Kill Probabilities, Modeling and Simulation
+   Recommended Working Group Session(s): Future Capabilities, Modeling and Simulation
+   Corresponding Author:
+   Last: Deitz                   First: Paul                  Org: U.S. Army Materiel Systems Analysis Activity
+   Street: 392 Hopkins Road
+   City:     Aberdeen                     State: MD     Zip: 21007-5071     Country: USA
+   Phone Comm: 410-278-2786               Fax Comm:
+   Phone DSN:       298-2786              Fax DSN:
+   Email: paul.h.deitz.civ@mail.mil
+   Additional Authors:
+   Last:   Ward                  First: Beth                  Org: Army Research Laboratory
+   Last:                         First:                       Org:
+   Last:                         First:                       Org:
+   Sponsor (for Contractors only):
+   Printed Name:                                              Org:
+   Signature:
+   FDO Certification: I certify that this abstract has been reviewed and is (select one):
+      approved for public release.
+      releasable to these countries:___________________________________________________________
+   Printed Name:
+   Signature:                                                             Date:
+
+                                              UNCLASSIFIED
+ Abstract:
+The history of Army ballistic direct-fire lethality/vulnerability goes back to the late 1950s and workers
+at the Ballistic Research Laboratory. Prior to this time, armored fighting vehicle (AFV)
+characterization was principally in terms of armor protection. However, in the late 1950s, analysts
+began considering two key additional factors when assessing ballistic hits: a] reduction in platform
+ability to move, shoot, or communicate, and b] measures relating to reduced mission effectiveness.
+To bring discipline to this task, workers on the current main battle tanks (M-47s and M-48s)
+generated a list of major platform components/subsystems. Approximately 400 entries were
+generated. In order to address factor a], a group of engineers was assembled to map the effect of
+each component/subsystem on each of the platform performance abilities (i.e., move, shoot,
+communicate).
+To address factor b], a number of missions was subjectively defined; for example, overwatch, attack,
+hasty retreat, etc. The influence of each performance metric to the successful prosecution of the
+mission was then established. By combining factors a] and b] a relationship was formed between
+component/ subsystem loss and mission effectiveness.
+These pieces provided the foundation of what was called the Standard Damage Assessment List
+(SDAL). Because of the size of the variable space (e.g., different missions, round hit location, hit
+dispersion, etc.), a sequence of averages was imposed on the core metrics having to do with
+platform movement, firepower, and catastrophic outcome. In the end, the metrics, all generated on
+the unit interval, were labelled probabilities and have been used to support wargame interactions for
+over 50 years.
+Today, much has changed in the characterization of warfare analysis. Engineering analyses have
+been structured for many AFVs in order to relate component loss to performance decrement.
+Military tasks (together with conditions and standards) are now codified for the Joint and Service
+worlds. Thus a clear linkage can be established between the status of platform components and
+each point in a time/task resolved mission.
+In this paper we will review the history of direct-fire Kill Probabilities, what issues have surfaced, and
+how new methods provide optional means for supporting a gamut of analytic needs.
+                                              UNCLASSIFIED
+

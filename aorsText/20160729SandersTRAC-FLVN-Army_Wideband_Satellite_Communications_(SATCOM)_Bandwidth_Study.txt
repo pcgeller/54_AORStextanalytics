@@ -1,0 +1,65 @@
+                                           54th AORS 2016
+                            ABSTRACT SUBMISSION FORM
+Abstracts must be approved for public release or release to the foreign governments of
+Australia, Canada, France, Germany, the Netherlands, New Zealand, the Republic of Korea, and
+the United Kingdom.
+NOTE: It is the responsibility of the corresponding author to obtain the required release
+authority from their respective Foreign Disclosure Officer (FDO).
+Please email the completed and certified abstract submission form to the AORS Mailbox not
+later than 15 July 2016.
+                                  Security Classification: UNCLASSIFIED
+   Abstract:
+   Title: Army Wideband Satellite Communications (SATCOM) Bandwidth Study
+   Keywords: SATCOM, throughput, wideband, transport convergence, jamming, scintillation
+   Recommended Working Group Session(s): Future Capabilities, Cyber Analysis
+   Corresponding Author:
+   Last: Sanders                First: Rick                                                  Org: TRADOC Analysis Center-Ft Leav
+   Street: 255 SEDGWICK AVENUE
+   City:     FT LEAVENWORTH                State: KS                          Zip: 66027-2345            Country: USA
+   Phone Comm: 913-684-9169                Fax Comm: 913-684-9222
+   Phone DSN:       552-9169               Fax DSN:                     552-9222
+   Email:     richard.d.sanders32@mail.mil
+   Additional Authors:
+   Last:                        First:                                                       Org:
+   Last:                        First:                                                       Org:
+   Last:                        First:                                                       Org:
+   Sponsor (for Contractors only):
+   Printed Name:                                                                             Org:
+   Signature:
+   FDO Certification: I certify that this abstract has been reviewed and is (select one):
+      approved for public release. Australia, Canada, Federal Republic of Germany, France, the Netherlands,
+                                     New Zealand, Republic of Korea, and United Kingdom.
+      releasable to these countries:___________________________________________________________
+   Printed Name: Oren L. Hunsaker
+   Signature:                                                                                          Date: 20160727
+                                                 Digitally signed by HUNSAKER.OREN.LEE.1141781304
+                                                 DN: c=US, o=U.S. Government, ou=DoD, ou=PKI, ou=USA,
+                    HUNSAKER.OREN.LEE.1141781304 cn=HUNSAKER.OREN.LEE.1141781304
+                                                 Date: 2016.07.27 10:33:53 -05'00'
+
+                                               UNCLASSIFIED
+ Abstract:
+The Army requires access to secure, reliable information out to the tactical edge. Currently, satellite
+communication (SATCOM) is the only means for providing this connectivity when maneuvering
+forces are beyond line-of-sight of their command post, other units, and coalition forces. As the
+Department of Defense military wideband satellites reach end of life, the Services must be prepared
+to defend their wideband SATCOM requirements for a future wideband SATCOM analysis of
+alternatives. The Headquarters, Department of the Army G-3/5/7 initiated the Army Wideband
+SATCOM Bandwidth Study in November of 2015 and directed the TRADOC Analysis Center
+(TRAC) establish a study team to determine Army wideband SATCOM requirements to support
+deployed forces conducting expeditionary maneuver in the 2030 timeframe.
+The study team combined an extensive literature review, network connectivity analysis, and
+operational assessment to develop the Army wideband SATCOM requirements in terms of
+throughput by warfighting function and echelon. By combining the outputs from two different models,
+utilizing two operational scenarios, and current Army operational data, TRAC developed a baseline
+communication requirement. Subject matter experts (SME) were consulted to validate or construct
+communication requirements to fill data voids in the demand signal. SMEs also prioritized the
+communications requirements based on the missions and activities. The study team also examined
+operational impacts of transport convergence and threat jamming/scintillation on throughput
+requirements.
+This presentation will describe the study scope, methodology, and data techniques used to develop
+the estimated throughput requirement and insights on transport converge and threat
+jamming/scintillation. It will also outline various analytic challenges as well as lessons learned
+throughout the study.
+                                               UNCLASSIFIED
+

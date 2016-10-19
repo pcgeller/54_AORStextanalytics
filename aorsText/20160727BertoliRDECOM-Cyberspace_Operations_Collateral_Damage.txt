@@ -1,0 +1,61 @@
+                                           54th AORS 2016
+                              ABSTRACT SUBMISSION FORM
+Abstracts must be approved for public release or release to the foreign governments of
+Australia, Canada, France, Germany, the Netherlands, New Zealand, the Republic of Korea, and
+the United Kingdom.
+NOTE: It is the responsibility of the corresponding author to obtain the required release
+authority from their respective Foreign Disclosure Officer (FDO).
+Please email the completed and certified abstract submission form to the AORS Mailbox not
+later than 15 July 2016.
+                                   Security Classification: UNCLASSIFIED
+   Abstract:
+   Title: Cyberspace Operations Collateral Damage: Overcoming Associated Challenges & Misconceptions 
+   Keywords: Cyber Analysis track
+   Recommended Working Group Session(s): Cyber Analysis track
+   Corresponding Author:
+   Last: Bertoli                 First: Giorgio               Org: RDECOM
+   Street: 6003 Combat Drive
+   City:     Aberdeen Proving Ground      State: MD     Zip: 21005          Country: USA
+   Phone Comm: (443) 861-0743             Fax Comm:
+   Phone DSN:                             Fax DSN:
+   Email: giorgio.bertoli.civ@mail.mil
+   Additional Authors:
+   Last:                         First:                       Org:
+   Last:                         First:                       Org:
+   Last:                         First:                       Org:
+   Sponsor (for Contractors only):
+   Printed Name:                                              Org:
+   Signature:
+   FDO Certification: I certify that this abstract has been reviewed and is (select one):
+      approved for public release.
+      releasable to these countries:___________________________________________________________
+   Printed Name:
+   Signature:                                                           Date:
+
+                                               UNCLASSIFIED
+ Abstract:
+Practically all military actions have the potential to result in undesirable collateral damage. The
+military is bound by law to minimize any casualties to civilians and civilian objects, and has
+developed clear procedures and tools to help predict the collateral damage that may result from the
+employment of specific weapon systems under various conditions. These processes have been
+refined over time, and are now very effective for the planning of kinetic operations. The emergence
+of cyberspace as an operational domain is, however, adding new complexities. Evaluating the
+overall effects of a cyberspace weapon is less intuitive and more multifaceted to predict.
+Cyberspace capabilities have inherent differences in their behavior and employment that require
+additional study and scrutiny. These complexities, however, have been misconstrued and
+mythicized to the point where the perceived damage that can result from the employment of any
+cyberspace tool is often greatly exaggerated. Much like a biological agent is categorized based on
+its potential to affect a large portion of the global population, malicious software can be categorized
+based on its propensity to indiscriminately affect a broad range of cyberspace systems based on six
+attributes, namely: damage, controllability, detectably, remediation, exclusivity, and propagation.
+Furthermore, when decomposed, as part of a holistic collateral damage taxonomy, the processes for
+quantifying the undesirable effects that may result from the employment of many types of
+cyberspace weapons is not that much different than from their kinetic counterparts.
+OPSEC Certification:
+Printed Name: ____________________
+Signature:      ______________________
+PAO Certification:
+Printed Name: ____________________
+Signature:      ______________________
+                                               UNCLASSIFIED
+

@@ -1,0 +1,60 @@
+                                               54th AORS 2016
+                              ABSTRACT SUBMISSION FORM
+Abstracts must be approved for public release or release to the foreign governments of
+Australia, Canada, France, Germany, the Netherlands, New Zealand, the Republic of Korea, and
+the United Kingdom.
+NOTE: It is the responsibility of the corresponding author to obtain the required release
+authority from their respective Foreign Disclosure Officer (FDO).
+Please email the completed and certified abstract submission form to the AORS Mailbox not
+later than 15 July 2016.
+                                     Security Classification: UNCLASSIFIED
+   Abstract:
+   Title: Big-Data Clustering of ZIP Codes For Army Recruiting
+   Keywords: Recruiting, Clustering, Interpoint Distance
+   Recommended Working Group Session(s):
+   Corresponding Author:
+   Last: Buttrey                   First: Samuel                                      Org: Naval Postgraduate School
+   Street: Code OR/Sb
+   City:     Monterey                         State: CA                   Zip: 93943                        Country: USA
+   Phone Comm: 831-656-3035                   Fax Comm: 831-656-2595
+   Phone DSN:       756-3035                  Fax DSN:                756-2595
+   Email: buttrey@gmail.com
+   Additional Authors:
+   Last:   Whitaker                First: Lyn                                         Org: Naval Postgraduate School
+   Last:   Fulton                  First: Brandon                                     Org: US Army
+   Last:                           First:                                             Org:
+   Sponsor (for Contractors only):
+   Printed Name:                                                                      Org:
+   Signature:
+   FDO Certification: I certify that this abstract has been reviewed and is (select one):
+      approved for public release.
+      releasable to these countries:___________________________________________________________
+   Printed Name: Keith Robison
+   Signature:       ROBISON.KEITH.RUSSELL.1174977158
+                                                     Digitally signed by ROBISON.KEITH.RUSSELL.1174977158
+                                                     Date: 2016.07.19 09:45:08 -07'00'                    Date: 19JUL2016
+
+                                               UNCLASSIFIED
+ Abstract:
+Knowing the number of young people available to be recruited into the Army would help Recruiting
+Command deploy resources efficiently. In any particular area, the number of young people available
+to be recruited into the Army in any particular area depends on population size, but also on local
+attributes of the population that affect eligibility (for example, prevalence of obesity or diabetes) and
+propensity to enlist (for example, proximity of universities). Obvious measures related to the number
+of people available include the number of recruits from last year and the number of local leads from
+that area. However, these measures all suffer from a “chicken-and-egg” problem. They all increase
+as a function of increased recruiter effort, and recruiters are allocated based on an area’s past
+production. In this work, we cluster about 34,000 ZIP codes according to their values of about 350
+variables derived from open sources which measure data on health, income and taxes, local
+employment and payrolls, military and veteran populations, and secondary institutions. These
+variables are frequently missing, are often measured at county, rather than ZIP code, level, and are
+highly dependent. We reduce dependency and control for over-represented variable types (such as
+population health variables), by first partitioning the 350 variables into a small number of variable
+types and then clustering ZIP codes into a small number of homogenous clusters for each group of
+variables. We use a novel measure of inter-observation distance that is resistant to missing values,
+outliers, and transformations and operates on both categorical and numeric attributes. Performance
+is measured by comparing the clustering to the numbers of national leads, which should be largely
+immune from the effect of local recruiter effort. Recruiting Command can use the clustering to aid in
+assigning recruiting resources to, and determining recruiting tactics, in different ZIP code types.
+                                               UNCLASSIFIED
+

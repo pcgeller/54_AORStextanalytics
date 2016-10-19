@@ -1,0 +1,58 @@
+                                          54th AORS 2016
+                            ABSTRACT SUBMISSION FORM
+Abstracts must be approved for public release or release to the foreign governments of
+Australia, Canada, France, Germany, the Netherlands, New Zealand, the Republic of Korea, and
+the United Kingdom.
+NOTE: It is the responsibility of the corresponding author to obtain the required release
+authority from their respective Foreign Disclosure Officer (FDO).
+Please email the completed and certified abstract submission form to the AORS Mailbox not
+later than 15 July 2016.
+                                  Security Classification: UNCLASSIFIED
+   Abstract:
+   Title: IPB for Megacities Environments
+   Keywords: OSINT, Megacities
+   Recommended Working Group Session(s): Advances in OR & Technology
+   Corresponding Author:
+   Last: Beskow                 First: David                                                         Org: INSCOM
+   Street: 8825 Beulah Rd
+   City:     Fort Belvoir                State: VA                                Zip: 22060                                         Country: USA
+   Phone Comm: 703.706.1255              Fax Comm:
+   Phone DSN:                            Fax DSN:
+   Email: david.m.beskow.mil@mail.mil
+   Additional Authors:
+   Last:   Hopkins              First: Christopher                                                   Org: INSCOM
+   Last:   Torres               First: Enrique                                                       Org: INSCOM
+   Last:   Edmiston             First: Russell                                                       Org: INSCOM
+   Sponsor (for Contractors only):
+   Printed Name:                                                                                     Org:
+   Signature:
+   FDO Certification: I certify that this abstract has been reviewed and is (select one):
+      approved for public release.
+      releasable to these countries:___________________________________________________________
+                                     UNCLASSIFIED//FOUO//REL TO USA, DEU, FRA, KOR, NLD, FVEY
+   Printed Name: Richard E. Grady
+   Signature:       GRADY.RICHARD.E.1027254566
+                                                Digitally signed by GRADY.RICHARD.E.1027254566
+                                                DN: c=US, o=U.S. Government, ou=DoD, ou=PKI, ou=USA, cn=GRADY.RICHARD.E.1027254566
+                                                Date: 2016.08.01 07:57:18 -04'00'
+                                                                                                                                   Date: 1 August 2016
+
+                                              UNCLASSIFIED
+ Abstract:
+The 2014 Chief of Staff of the Army Strategic Studies Group stated that “Analytical portfolios in the
+DoD Intelligence Community are not focused on cities. Efforts focus on countries, regions,
+adversaries and a variety of trends of concern to decision makers. While efforts are underway to
+develop collection capabilities focused on remotely characterizing cities, there does not exist…any
+analytical arm dedicated to understanding cities to support the war fighter.” Follow on research
+efforts identified “big data” as the cornerstone of intelligence preparation of the battlefield (IPB) in
+dense urban environments. To support these claims, most research efforts point to the use of big
+data by industry and local governments, along with the explosion of mobile devices as evidence to
+support these claims. Our research was designed to operationalize and attempt to validate these
+claims. Can Army intelligence forces access and exploit big data in dense urban environments
+while operating under their current OSINT collection authorities? To characterize dense urban
+environments, we found that intelligence organizations needed access to transactional data
+(financial, social, transportation, and business transactions). We found that our Army OSINT
+authorities allow partial access to social transactions, with limited access to financial, transportation,
+and business transactions.
+                                              UNCLASSIFIED
+

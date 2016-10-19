@@ -1,0 +1,88 @@
+                                 AMSAA OPSEC COORDINATION FORM
+                                                                                         Eric Harclerode
+   Title:       FOCUS 2.0 Development Update                               Author(s):
+   T e ofFonnat:                      x Document        0 CD/Disk          Date: 5Jul16             Phone: 278-9310
+   Method of Release (Check T e of Release :
+           x Abstract                        0 Briefin        0 Publication     0 Web Postin               0 Other
+   P ose for Release:                                                 Date of Release or Presentation:
+   AORS                                                               15 Jul 2016
+                                                                      DYES                              xNO
+                                             OPSEC Technical Reviewer
+   Office: ISR Branch                                                                         AMXAA-CI
+   Name                                                        Date
+   Elizabeth Jones                                             5JUL2016       CONCUR             0 NONCONCUR
+      Intended Distribution is Statement A a roved for Public Release-Distribution is Unlimited
+   I certify that I am technically knowledgeable to review and approve the release of the infonnation contained in
+   the enclosed fonnat. I fully understand the threat connected with open source publications from hostile
+   intelligence sources and, in my judgment, the benefits of the release outweighs the potential damage to the
+   essential secrecy of the item in question. I, therefore, conclude that it is in the best interest of AMSAA, AMC,
+   Ann or other DoD ro ams to release this infonnation into the ublic domain.
+                                    Reviewer' s Signature-      ~it..°'-. ·~~
+   Name
+                                                                            D CONCUR              D NONCONCUR
+                                            PM' s Signature-
+                                        Public Affairs Office Re
+   Name                                                                         roval Decision: Check One
+                                                                                ONCUR             0 NONCONCUR
+                                           PAO' s Signature--
+                                                        OPSEC Officer Review
+   Name
+                                                                               CONCUR             D NONCONCUR
+AMSAA Fonn 74-R (24 January 2011 )
+Previous editions of this fonn arc obsolete
+
+                                           54th AORS 2016
+                               ABSTRACT SUBMISSION FORM
+Abstracts must be approved for public release or release to the foreign governments of
+Australia, Canada, France, Germany, the Netherlands, New Zealand, the Republic of Korea, and
+the United Kingdom.
+NOTE: It is the responsibility of the corresponding author to obtain the required release
+authority from their respective Foreign Disclosure Officer (FOO).
+Please email the completed and certified abstract submission form to the AORS Mailbox not
+later than 15 July 2016.
+                                  Security Classification: UNCLASSIFIED
+   Abstract:
+   Title : Fusion Oriented C41SR Utility Simulation (FOCUS) 2.0 Development Update
+   Keywords: ISR, M&S
+   Recommended Working Group Session(s):         M&S, Advances in OR
+   Corresponding Author:
+   Last:    Harclerode           First: Eric                  Org: AMSAA
+   Street:   392 Hopkins Road
+   City:     APG                           State: MD    Zip: 21005          Country: US
+   Phone Comm:       4102789310            Fax Comm : 4102786865
+   Phone DSN:        2989310               Fax DSN:   2986865
+   Ema ii: eric.s.harclerode.civ@mail.mil
+   Additional Authors:
+   Last:                         First:                       Org:
+   Last:                         First:                       Org:
+   Last:                         First:                       Org:
+   Sponsor (for Contractors only):
+   Printed Name:                                              Org:
+   Signature:
+   FOO Certification: I certify that this abstract has been reviewed and Is (select one) :
+   <:>approved for public release.
+   Oreleasable to these countries:
+   Printed Name: ~Ll._&,- ~ G---1CA::h S.h,, c) J(._
+   Signature:
+                       a~crw~
+                            /
+                                                                         Date:    7 / 7/0-0/lp
+                          I
+
+                                             UNCLASSIFIED
+ Abstract:
+The Fusion Oriented C41SR Utility Simulation (FOCUS) is a stochastic, discrete event, constructive
+simulation developed by AMSAA to model and analyze the performance of ISR assets in tactical
+vignettes. FOCUS has been utilized in several Army and Joint studies to rapidly perform
+comparative analysis of sensor performance at the tactical level. FOCUS 2.0 is the first major
+update to the simulation which will completely overhaul the software architecture to increase the
+terrain "play-box," enable increased flexibility in defining ISR asset collection behaviors, and
+generate output charts during simulation execution to eliminate or reduce post-processing times.
+The new architecture is centered around an entity and capability "add-in" relationship and a new
+process flow interface to allow users to build a variety of custom behaviors including target
+acquisition timelines, dynamic mission sets, and intelligence processing, exploitation, and
+dissemination (PED) flows. Development also includes the creation of the Tactical ISR Performance
+Suite {TIPS) that encapsulates the AMSAA ISR performance methodologies into a standalone
+Application Programming Interface.
+                                             UNCLASSIFIED
+

@@ -1,0 +1,93 @@
+                                 AMSAA OPSEC COORDINATION FORM
+                US/UK Direct Fire Attack Distribution                                     I Rachel Champion,
+   Title: Development                                                         Author(s): Lewis Farkas
+   Type of Format: I ~Document                         D CD/Disk              Date:     1 July I Phone: 1278-2724
+                                                                                      2016
+   Method of Release (Check Type of Release):
+            ~Abstract                   I 0Briefing I           0Publication    I 0Web Posting I        00ther
+   Puroose for Release:                                                Date of Release or Presentation:
+   Abstract for AORS 2016 briefing topic                               NLT 15 July 2016
+   Program Manager Approval Required: (Check One)                      DYES               ~NO
+                                             OPSEC Technical Reviewer Branch Chie
+   Name                                                         Date
+   Mark Ralston
+      Intended Distribution is Statement A, a roved for Public Release - Distribution is Unlimited
+   I certify that I am technically knowledgeable to review and approve the release of the information
+   contained in the enclosed format. I fully understand the threat connected with open source publications
+   from hostile intelligence sources and, in my judgment, the benefits of the release outweighs the
+   potential damage to the essential secrecy of the item in question. I, therefore, conclude that it is in the
+   best interest of AMSAA, AMC, Army or other DoD programs to release this information into the
+     ublic domain
+                                    Reviewer's Signature-
+                                                    Pro2ram Mana2er's Review
+   Name                                                        Date        I Approval Decision: (Check One)
+                                                                           I 0CONCUR            D NONCONCUR
+                                            PM's Signature-
+                                         Public Affairs Office Re resentative PAO Review
+   Name
+                                           PAO's Signature-
+   Name
+                                                                               CONCUR          0   NONCONCUR
+                           OPSEC Officer's Signature-
+AMSAA Form 74-R (16 August 2004)
+Previous editions of this form are obsolete
+
+                                          54th AORS 2016
+                             ABSTRACT SUBMISSION FORM
+Abstracts must be approved for public release or release to the foreign governments of
+Australia, Canada, France, Germany, the Netherlands, New Zealand, the Republic of Korea, and
+the United Kingdom .
+NOTE: It is the responsibility of the corresponding author to obtain the required release
+authority from their respective Foreign Disclosure Officer (FOO).
+Please email the completed and certified abstract submission form to the AORS Mailbox not
+later than 15 July 2016.
+                                  Security Classification: UNCLASSIFIED
+   Abstract:
+   Title : US/UK Direct Fire Attack Distribution Development
+   Keywords: Direct Fire, Engagement, Attack, Distribution, Analysis, Echelon
+   Recommended Working Group Session(s):       M&S
+   Corresponding Author:
+   Last:    Champion            First: Rachel                 Org : AMSAA
+   Street: 392 Hopkins Rd.
+   City:     Aberdeen Proving Ground     State: MD      Zip: 21005          Country: USA
+   Phone Comm: (410)-278-2724            Fax Comm: (410)-278-0488
+   Phone DSN:      298-2724              Fax DSN:     298-0488
+   Email :
+   Additional Authors:
+   Last:    Farkas              First: Lewis                  Org : AM SAA
+   Last:                        First:                        Org :
+   Last:                        First:                        Org:
+   Sponsor (for Contractors only):
+   Printed Name:                                              Org:
+   Signature :
+   FOO Certification: I certify that this abstract has been reviewed and is (select one):
+   <:>approved for public release.
+   Oreleasable to these countries :
+   Printed Name:     '5ll-d/./A\    ('/t1:li~hn0Jc-
+   Signature:         (    't/~ A~/),./n~                                 Date:    7 4, /:::i-o/ <-...
+                        , //                                                        /
+
+                                                UNCLASSIFIED
+ Abstract:
+AMSAA and the United Kingdom's Defense Science and Technology Laboratory (DSTL) are jointly
+developing direct fire attack distributions (DFADs) to be utilized in combat and combat support
+vehicle survivability assessments. The
+AMSAA/DSTL DFAD work is part of an Integrated Survivability Project, which
+is executed under an Information Exchange Agreement. The intended output of the DFAD effort is a
+set of attack distributions that could be utilized in threat lethality assessments, vehicle survivability
+and force protection assessments, operational effectiveness assessments, etc. which in turn support
+Army acquisition decisions. AMSAA's Survivability Team co-manages and executes the DFAD task
+under an Information Exchange Agreement.
+The current U.S. Army standard attack distribution, the Combat Vehicle-Combat Performance
+Operational Assessment (CV-CPOA), was developed in the late 1980's and has several limitations
+including the absence of attack distributions for modern day irregular warfare. Similarly, DSTL has
+utilized the Whittaker Distributions, which were derived from land attacks in World War II. Given that
+today's conflicts do not resemble the open land warfare of past conflicts and the threat attack
+characteristics are markedly different (asymmetric, irregular, etc.), it make sense to develop attack
+distributions to reflect the variety of conflicts experienced today.
+As a result, AMSAA is working with DSTL to analyze various attack information from current
+conflicts as well as live/virtual/constructive combat simulation from U.S. and UK training developers,
+with the intent to develop entirely new attack distributions for both conventional (combined arms
+maneuver) and irregular (wide area security, etc.) operations.
+                                                UNCLASSIFIED
+

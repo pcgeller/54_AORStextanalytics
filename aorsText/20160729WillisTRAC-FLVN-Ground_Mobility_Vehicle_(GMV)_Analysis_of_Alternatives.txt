@@ -1,0 +1,59 @@
+                                             54th AORS 2016
+                               ABSTRACT SUBMISSION FORM
+Abstracts must be approved for public release or release to the foreign governments of
+Australia, Canada, France, Germany, the Netherlands, New Zealand, the Republic of Korea, and
+the United Kingdom.
+NOTE: It is the responsibility of the corresponding author to obtain the required release
+authority from their respective Foreign Disclosure Officer (FDO).
+Please email the completed and certified abstract submission form to the AORS Mailbox not
+later than 15 July 2016.
+                                     Security Classification: UNCLASSIFIED
+   Abstract:
+   Title: Ground Mobility Vehicle (GMV) Analysis of Alternatives
+   Keywords: AoA, Maneuverability, Transportability, Airborne, Air Assault, Offset Drop Zone
+   Recommended Working Group Session(s): Enduring Working Group (Future Capabilities)
+   Corresponding Author:
+   Last: Willis                   First: Jake                                                 Org: TRADOC Analysis Center-Ft Leav
+   Street: 255 SEDGWICK AVENUE
+   City:     FT LEAVENWORTH                 State: KS                          Zip: 66027-2345            Country: USA
+   Phone Comm: 913-684-9815                 Fax Comm: 913-684-9222
+   Phone DSN:        552-9185               Fax DSN:                     552-9222
+   Email:     jake.j.willis.civ@mail.mil
+   Additional Authors:
+   Last:   Serota                 First: Douglas                                              Org: TRADOC Analysis Center-Ft Leav
+   Last:                          First:                                                      Org:
+   Last:                          First:                                                      Org:
+   Sponsor (for Contractors only):
+   Printed Name:                                                                              Org:
+   Signature:
+   FDO Certification: I certify that this abstract has been reviewed and is (select one):
+      approved for public release. Australia, Canada, Federal Republic of Germany, France, the Netherlands,
+                                         New Zealand, Republic of Korea, and United Kingdom.
+      releasable to these countries:___________________________________________________________
+   Printed Name: Oren L. Hunsaker
+   Signature:                                                                                           Date: 20160727
+                                                  Digitally signed by HUNSAKER.OREN.LEE.1141781304
+                                                  DN: c=US, o=U.S. Government, ou=DoD, ou=PKI, ou=USA,
+                    HUNSAKER.OREN.LEE.1141781304  cn=HUNSAKER.OREN.LEE.1141781304
+                                                  Date: 2016.07.27 10:32:54 -05'00'
+
+                                             UNCLASSIFIED
+ Abstract:
+The Army Capabilities Integration Center (ARCIC), Training and Doctrine Command (TRADOC)
+initiated the GMV AoA in September of 2015 in support of a future Acquisition Category (ACAT) III,
+Milestone C decision. The purpose of the AoA is to evaluate commercial off-the-shelf vehicle
+capabilities to enable the rapid employment of squad-sized light infantry forces. The TRADOC
+Analysis Center (TRAC) established a study team to examine the alternatives that could mitigate the
+capability gap resulting from the Infantry Brigade Combat Team (IBCT) lack of sufficient enhanced
+tactical mobility to rapidly transport and maneuver forces across extended distances as part of a
+Joint Forcible Entry team in all environmental conditions.
+The GMV AoA Study Directive identified two study issues for the AoA to address: (1) assess the
+cost, schedule, and performance risks for each alternative considering life-cycle cost, weight, and
+size of a vehicle, and (2) assess IBCT operational effectiveness for each alternative considering
+maneuverability, fixed-wing employment, and rotary-wing employment.
+This presentation will discuss how the study team assessed operational effectiveness of the GMV
+alternatives by focusing on the transportability and maneuverability of the alternatives within two
+scenario vignettes, both involving offset drop zone/landing zones. It will include methodologies for
+the two efforts and outline various challenges as well as lessons learned throughout the study.
+                                             UNCLASSIFIED
+
