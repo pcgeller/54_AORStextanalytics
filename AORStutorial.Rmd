@@ -13,6 +13,8 @@ PATH = '/home/pcgeller/54_AORStextanalytics'
 ```{r eval=FALSE}
 install.packages('pdf_tools')
 install.packages('stringr')
+install.packages('tm')
+install.packages('dplyr')
 ```
 
 If you are using Linux (like most AWS images) you'll need to install poppler for pdf_tools via a terminal.
@@ -23,23 +25,38 @@ sudo apt-get install libpoppler-cpp-dev
 ### Munge
 **Convert .pdf to .txt**
 Each working group has its own folder and each abstract has it's own .pdf in the folder for the working group it's assigned to.
-```{r eval = FALSE}
+```{r eval = TRUE}
 require('stringr')
 require('pdftools')
 
 dirs = list.files(file.path(PATH, 'aorsAbstracts'))
 files = list.files('./aorsAbstracts/', pattern = '*.pdf', recursive = TRUE)
 for(file in files) {
-  rawtext <- pdf_text(file.path(PATH, 'aorsAbstracts', file))
+  rawtext = pdf_text(file.path(PATH, 'aorsAbstracts', file))
+  #amsaa = str_extract(rawtext, "AMSAA OPSEC COORDINATION FORM")
+  if(length(rawtext) == 3){
+    rawtext = rawtext[-1]
+  }  
+  if(length(rawtext) == 4){
+    rawtext = rawtext[2:3]
+  }
   write(rawtext, file=file.path(PATH, 'aorsText', gsub('.pdf','.txt',basename(file))))
 }
 ```
+We lose 8 files to parsing errors.  The .pdfs can't be converted to text.
 **Format raw text into dataframe**
+This is a good example of why a database should be used.  Half the struggle is to get our dataset from
+it's document format to it's component data.  A database stores all of the component data and then produces
+a document when needed.  
+
+
+AMSAA - Extra first form.  Extra last form.  Scanned files cause transcription errors (extra spaces, inexact spelling).
 ```{r}
 txtfiles = list.files('./aorsText/')
 df = data.frame(title=character(),
                 org=character(),
                 abstract=character(),
+                filename=character(),
                 stringsAsFactors = FALSE)
                 
 for(f in txtfiles) {
@@ -49,19 +66,147 @@ for(f in txtfiles) {
   text = readChar(file, file.info(file)$size)
   #Remove all new lines
   text = str_replace_all(text, '\n', ' ')
-  #Extract
+  #Extract abstract
   #abstract = str_extract(text, '(?<=Abstract:).*(?=UNCLASSIFIED\\s*$)')
-  abstract = str_extract(text, '(.(?!Abstract:))+(?=UNCLASSIFIED\\s*$)')
+  abstract = str_extract(text, '((?!Abstract:)).*(?=UNCLASSIFIED\\s*$)')
   abstract = str_replace(abstract, 'Abstract:', '')
   abstract = str_trim(abstract)
-  title = str_extract(text, '(?<=Title:).*(?=Keywords|Author\\(s\\))')
+  #Extract title
+  title = str_extract(text, '(?<=Title(\\s)?:).*(?=Keywords:)')
   title = str_trim(title)
   print(title)
+  #Extract org
   org = str_extract(text, '(?<=Org:).*(?=Street:)')
   org = str_trim(org)
   print(org)
-  newrow = c(title,org,abstract)
+  #Extract WG
+  newrow = c(title,org,abstract,f)
 
   df[nrow(df)+1,] <- newrow
 }
+```
+Finally, our dataset is in a format that enables us to start anlaysis. We'll start by creating a corpus.
+
+
+### Ingest
+To start our analysis we'll use the tm (text mining) package to format our data into a *corpus*. A corpus is just a body of documents.  In **tm** terms it's a way of structuring your data that enables you to associate meta-data to a document and it's contents.
+
+```{r}
+require('tm')
+setwd(PATH)
+m = list(content = 'abstract', title = 'title', org = 'org')
+reader = readTabular(mapping = m)
+corpus = Corpus(DataframeSource(df), readerControl = list(reader = reader))
+```
+Now all of our documents are organized in the corpus. You can access them through indexing.  
+
+However before we actually do any analysis we'll want to pre-process the data. 
+
+```{r}
+corpus <- tm_map(corpus, removePunctuation)
+corpus <- tm_map(corpus, removeNumbers)
+corpus <- tm_map(corpus, content_transformer(tolower))
+corpus <- tm_map(corpus, removeWords, stopwords("english"))
+#Stemming the corpus takes off too many important endings - a lot of s'es (s's?) get dropped from the ends of words
+#corpus <- tm_map(corpus, stemDocument)
+corpus <- tm_map(corpus, stripWhitespace)
+```
+### Analysis
+
+#make freq plot
+```{r eval = TRUE}
+makeplot <- function(freqthreshold,PATH){
+  #png(filename = paste(PATH, "/freq.png", sep = ""))
+  p <- ggplot(subset(wf,freq>freqthreshold), aes(x = reorder(word,freq),y = freq))
+  p <- p + geom_bar(stat="identity")
+  p <- p + theme(axis.text.x=element_text(angle=45, hjust = 1))
+ # ggsave(filename = paste(PATH, "/freq.png", sep = ""), plot = p, width = 6, height = 6)
+ # dev.off()
+}
+```
+
+#make word cloud
+```{r eval = TRUE}
+makewordcloud <- function(freqthreshold,PATH){
+ # png(filename = paste(PATH, "/cloud.png", sep = ""))
+  cloud <- wordcloud(names(freq), freq, min.freq=freqthreshold, scale=c(5, .1), colors=brewer.pal(6, "Dark2"))   
+  #ggsave(filename = paste(PATH, "/cloud.png", sep = ""), plot = cloud)
+  dev.off()
+}
+```
+
+#make dendogram
+```{r eval = TRUE}
+makedendo <- function(sparsity,PATH){
+ # png(filename = paste(PATH, "/dendo.png", sep = ""))
+  dtmss <- removeSparseTerms(dtm, sparsity)
+  d <- dist(t(dtmss), method="euclidian")
+  fit <- hclust(d=d, method="ward.D2")
+  dendo <- plot(fit, hang = -1)
+  #ggsave(filename = paste(PATH, "/dendo.png", sep = ""), plot = dendo)
+ # dev.off()
+}
+```
+
+#make kmeans cluster
+```{r eval = TRUE}
+makecluster <- function(PATH){
+ # png(filename = paste(PATH, "/cluster.png", sep=""))
+  d <- dist(t(dtmss), method = "euclidian")
+  kfit <- kmeans(d,16)
+  clus <- clusplot(as.matrix(d), kfit$cluster, color = T, shade = T, labels = 2, lines = 0)
+  #ggsave(filename = paste(PATH, "/cluster.png", sep=""), plot = clus)
+  #dev.off()
+}
+```
+
+#count frequency of words per cluster 
+```{r eval = TRUE}
+mfrq_words_per_cluster <- function(clus, dtm, first = 10, unique = TRUE){
+  if(!any(class(clus) == "skmeans")) return("clus must be an skmeans object")
+
+  dtm <- as.simple_triplet_matrix(dtm)
+  indM <- table(names(clus$cluster), clus$cluster) == 1 # generate bool matrix
+
+  hfun <- function(ind, dtm){ # help function, summing up words
+    if(is.null(dtm[ind, ]))  dtm[ind, ] else  col_sums(dtm[ind, ])
+  }
+  frqM <- apply(indM, 2, hfun, dtm = dtm)
+
+  if(unique){
+    # eliminate word which occur in several clusters
+    frqM <- frqM[rowSums(frqM > 0) == 1, ] 
+  }
+  # export to list, order and take first x elements 
+  res <- lapply(1:ncol(frqM), function(i, mat, first)
+    head(sort(mat[, i], decreasing = TRUE), first),
+    mat = frqM, first = first)
+
+  names(res) <- paste0("CLUSTER_", 1:ncol(frqM))
+  return(res)
+}
+```
+
+#calc variables for plots
+```{r}
+require('dplyr')
+
+dtm <- DocumentTermMatrix(corpus)
+tdm <- TermDocumentMatrix(corpus)
+freq <- colSums(as.matrix(dtm))
+wf <- data.frame(word=names(freq), freq=freq)
+wf <- arrange(wf,freq)
+dtmss <- removeSparseTerms(dtm, 0.80)
+```
+
+#loop through all working groups and create DTM, and plot for each WG.  save under unique file name
+```{r, eval = FALSE}
+WG <- distinct(text["ED_Track"])
+WG <- as.vector(WG[,1])
+WG <- WG[-23] # blank
+mattfidf <- weightTfIdf(dtm) 
+matnormal <- as.matrix(dtm)
+matnormal <- matnormal/rowSums(matnormal)
+disttfidf <- dist(mattfidf, method = "manhattan")
+distnorm <- dist(matnormal, method = "manhattan")
 ```
