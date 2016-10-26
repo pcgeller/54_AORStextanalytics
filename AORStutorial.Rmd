@@ -6,15 +6,31 @@ output: html_document
 ---
 
 #Analysis of 54th AORS Abstracts
+
+**Introduction**
+
+
+
+
+** Getting Started**
+Let's start by setting the directory where the abstracts are stored.  This is called the path.  If you're reading documentation and you see mentiond of 'your Linux path' this refers to something slightly different.  This instead is referencing a file that knows the indivdual paths of each program you run with one line.  For example if you type the command `rstudio` how does it know where on your computer the rstudio file is located?  Simple, it's in your path.  
+
+Paths are typically denoted as $PATH.
+
 ```{r echo=FALSE}
 PATH = '/home/pcgeller/54_AORStextanalytics'
 ```
 ### Install dependencies.
+
+Make sure you've got the packages installed from CRAN.
+
 ```{r eval=FALSE}
 install.packages('pdf_tools')
 install.packages('stringr')
 install.packages('tm')
 install.packages('dplyr')
+install.packages('ggplot2')
+install.packages('SnowballC')
 ```
 
 If you are using Linux (like most AWS images) you'll need to install poppler for pdf_tools via a terminal.
@@ -23,8 +39,13 @@ sudo apt-get install libpoppler-cpp-dev
 ```
 
 ### Munge
+
+Text analysis is munge.  The analysis portion of in text analysis really about 20% of the work.  The rest of it is trying to get your data extracted from whatever format it's in into something that enables the analysis.  Some formats are easier to work with than others. Hopefully you'll at least gain an appreciation on why using a database for storing data (makes sense) is the best way to do it and saves all sorts of headaches.
+
 **Convert .pdf to .txt**
-Each working group has its own folder and each abstract has it's own .pdf in the folder for the working group it's assigned to.
+WIth any text analysis before you can do anything you need raw text.  Raw text referes to text that's stored in a raw ASCII or UTF format and doesn't have any formating. On Windows this is a .txt file, on Linux it's anything that can be opened with `nano` and on Macs I'm not sure.
+
+Each working group has its own folder and each abstract has it's own .pdf in the folder for the working group it's assigned to.  For this analysis we throw out the working groups and focus on the abstracts as a complete corpus.
 ```{r eval = TRUE}
 require('stringr')
 require('pdftools')
@@ -34,6 +55,7 @@ files = list.files('./aorsAbstracts/', pattern = '*.pdf', recursive = TRUE)
 for(file in files) {
   rawtext = pdf_text(file.path(PATH, 'aorsAbstracts', file))
   #amsaa = str_extract(rawtext, "AMSAA OPSEC COORDINATION FORM")
+  #hacks to handle amsaa abstracts.
   if(length(rawtext) == 3){
     rawtext = rawtext[-1]
   }  
@@ -43,14 +65,18 @@ for(file in files) {
   write(rawtext, file=file.path(PATH, 'aorsText', gsub('.pdf','.txt',basename(file))))
 }
 ```
-We lose 8 files to parsing errors.  The .pdfs can't be converted to text.
-**Format raw text into dataframe**
+We lose 8 files to parsing errors.  The .pdfs can't be converted to text.  This is caused by a .pdf version mismatch between the converter and the documents.  
+
+Some gotchas from thh files - *AMSAA - Extra first form.  Extra last form.  Scanned files cause transcription errors (extra spaces, inexact spelling).*
+
 This is a good example of why a database should be used.  Half the struggle is to get our dataset from
 it's document format to it's component data.  A database stores all of the component data and then produces
 a document when needed.  
 
+**Format raw text into dataframe**
 
-AMSAA - Extra first form.  Extra last form.  Scanned files cause transcription errors (extra spaces, inexact spelling).
+Now that we have our .pdfs converted into .txt files we want the data in form that enables us to conduct analysis.  In R this is handy dataframe data type.
+
 ```{r}
 txtfiles = list.files('./aorsText/')
 df = data.frame(title=character(),
@@ -87,9 +113,14 @@ for(f in txtfiles) {
 ```
 Finally, our dataset is in a format that enables us to start anlaysis. We'll start by creating a corpus.
 
+**Exercise - ** Extract another data field from the .pdfs.
 
 ### Ingest
 To start our analysis we'll use the tm (text mining) package to format our data into a *corpus*. A corpus is just a body of documents.  In **tm** terms it's a way of structuring your data that enables you to associate meta-data to a document and it's contents.
+
+First we create a mapping of our data we want to analyze to the content.  This is always fixed. The body of your text should always be mapped to content.  The rest of the mapping is arbitrary.
+
+After we make the mapping list we configure a reader to read the data from a table using the map we just created.  This doesn't always need to be the case, we can also read data from a directory, directly from files like XML, .pdfs, etc.
 
 ```{r}
 require('tm')
@@ -97,41 +128,44 @@ setwd(PATH)
 m = list(content = 'abstract', title = 'title', org = 'org')
 reader = readTabular(mapping = m)
 corpus = Corpus(DataframeSource(df), readerControl = list(reader = reader))
+mystopwords = c('countries','org','abstracts')
 ```
 Now all of our documents are organized in the corpus. You can access them through indexing.  
 
 However before we actually do any analysis we'll want to pre-process the data. 
 
 ```{r}
+require(SnowballC)
 corpus <- tm_map(corpus, removePunctuation)
 corpus <- tm_map(corpus, removeNumbers)
 corpus <- tm_map(corpus, content_transformer(tolower))
 corpus <- tm_map(corpus, removeWords, stopwords("english"))
-#Stemming the corpus takes off too many important endings - a lot of s'es (s's?) get dropped from the ends of words
+corpus <- tm_map(corpus, removeWords, mystopwords)
+#Stemming the corpus takes off a lot of important endings can be optional to do. I suggest you try it both ways.
+#This requires SnowballC
 #corpus <- tm_map(corpus, stemDocument)
 corpus <- tm_map(corpus, stripWhitespace)
 ```
 ### Analysis
+Finally we can start looking at our data. Below are some functions to start some exploritory analysis.  This will help you get an idea for the shape of your data and will start off wi
 
 #make freq plot
 ```{r eval = TRUE}
-makeplot <- function(freqthreshold,PATH){
-  #png(filename = paste(PATH, "/freq.png", sep = ""))
+require(ggplot2)
+makeplot <- function(freqthreshold,PATH=PATH){
   p <- ggplot(subset(wf,freq>freqthreshold), aes(x = reorder(word,freq),y = freq))
   p <- p + geom_bar(stat="identity")
   p <- p + theme(axis.text.x=element_text(angle=45, hjust = 1))
- # ggsave(filename = paste(PATH, "/freq.png", sep = ""), plot = p, width = 6, height = 6)
- # dev.off()
+  #ggsave(filename = paste(PATH, "/freq.png", sep = ""), plot = p, width = 6, height = 6)
 }
 ```
 
 #make word cloud
 ```{r eval = TRUE}
-makewordcloud <- function(freqthreshold,PATH){
+makewordcloud <- function(freqthreshold,PATH=PATH){
  # png(filename = paste(PATH, "/cloud.png", sep = ""))
   cloud <- wordcloud(names(freq), freq, min.freq=freqthreshold, scale=c(5, .1), colors=brewer.pal(6, "Dark2"))   
-  #ggsave(filename = paste(PATH, "/cloud.png", sep = ""), plot = cloud)
-  dev.off()
+  #dev.off()
 }
 ```
 
@@ -187,7 +221,7 @@ mfrq_words_per_cluster <- function(clus, dtm, first = 10, unique = TRUE){
 }
 ```
 
-#calc variables for plots
+**Calc variables for plots**
 ```{r}
 require('dplyr')
 
@@ -199,14 +233,18 @@ wf <- arrange(wf,freq)
 dtmss <- removeSparseTerms(dtm, 0.80)
 ```
 
-#loop through all working groups and create DTM, and plot for each WG.  save under unique file name
+**Calc some more term matrixes weighted in different ways.**
 ```{r, eval = FALSE}
-WG <- distinct(text["ED_Track"])
-WG <- as.vector(WG[,1])
-WG <- WG[-23] # blank
 mattfidf <- weightTfIdf(dtm) 
 matnormal <- as.matrix(dtm)
 matnormal <- matnormal/rowSums(matnormal)
 disttfidf <- dist(mattfidf, method = "manhattan")
 distnorm <- dist(matnormal, method = "manhattan")
 ```
+
+### Other Resources
+[DSCOE](https://dscoe.army.mil)
+[tm Documentation](https://cran.r-project.org/web/packages/tm/tm.pdf)
+[Intro to tm from CRAN](ftp://cran.r-project.org/pub/R/web/packages/tm/vignettes/tm.pdf)
+[MAJ Larabee's DSCOE work](https://dscoe.army.mil) - Not a direct link, goes to DSCOE but a quick search will turn up his work.
+[Rstudio guide to text analysis](https://rstudio-pubs-static.s3.amazonaws.com/31867_8236987cf0a8444e962ccd2aec46d9c3.html)
