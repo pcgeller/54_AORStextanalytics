@@ -9,8 +9,9 @@ output: html_document
 
 **Introduction**
 
+Text analysis is more of art than a science.  
 
-
+There are many general heuristic rules for choosing the number of clusters, but ultimately it comes down to the decisions an analysts makes.  
 
 ** Getting Started**
 Let's start by setting the directory where the abstracts are stored.  This is called the path.  If you're reading documentation and you see mentiond of 'your Linux path' this refers to something slightly different.  This instead is referencing a file that knows the indivdual paths of each program you run with one line.  For example if you type the command `rstudio` how does it know where on your computer the rstudio file is located?  Simple, it's in your path.  
@@ -18,24 +19,29 @@ Let's start by setting the directory where the abstracts are stored.  This is ca
 Paths are typically denoted as $PATH.
 
 ```{r echo=FALSE}
-PATH = '/home/pcgeller/54_AORStextanalytics'
+PATH = '/home/pcgeller/workspace/54_AORStextanalytics'
 ```
 ### Install dependencies.
 
 Make sure you've got the packages installed from CRAN.
 
 ```{r eval=FALSE}
-install.packages('pdf_tools')
+install.packages('pdftools')
 install.packages('stringr')
 install.packages('tm')
 install.packages('dplyr')
 install.packages('ggplot2')
 install.packages('SnowballC')
+install.packages('wordcloud')
+install.packages('cluster')
+install.packages('skmeans')
 ```
 
-If you are using Linux (like most AWS images) you'll need to install poppler for pdf_tools via a terminal.
+If you are using Linux (like most AWS images) you'll need to install poppler for pdftools via a terminal.
+And slam for tm.
 ```shell
 sudo apt-get install libpoppler-cpp-dev
+sudo apt-get install r-cran-slam
 ```
 
 ### Munge
@@ -64,10 +70,18 @@ for(file in files) {
   }
   write(rawtext, file=file.path(PATH, 'aorsText', gsub('.pdf','.txt',basename(file))))
 }
+
+formwords = function(BLANKABSTRACT = file.path(PATH,'AORS_2016_Abstract_Submission_Form.pdf')){
+  rawtext = pdf_text(BLANKABSTRACT)
+  rawtext = str_replace_all(rawtext,'[:punct:]',' ')
+  rawtext = str_replace_all(rawtext, '\n',' ')
+  formwords = scan_tokenizer(rawtext)
+  return(formwords)
+}
 ```
 We lose 8 files to parsing errors.  The .pdfs can't be converted to text.  This is caused by a .pdf version mismatch between the converter and the documents.  
 
-Some gotchas from thh files - *AMSAA - Extra first form.  Extra last form.  Scanned files cause transcription errors (extra spaces, inexact spelling).*
+Some gotchas from the files - *AMSAA - Extra first form.  Extra last form.  Scanned files cause transcription errors (extra spaces, inexact spelling).*
 
 This is a good example of why a database should be used.  Half the struggle is to get our dataset from
 it's document format to it's component data.  A database stores all of the component data and then produces
@@ -77,7 +91,7 @@ a document when needed.
 
 Now that we have our .pdfs converted into .txt files we want the data in form that enables us to conduct analysis.  In R this is handy dataframe data type.
 
-```{r}
+```{r echo = FALSE}
 txtfiles = list.files('./aorsText/')
 df = data.frame(title=character(),
                 org=character(),
@@ -88,7 +102,7 @@ df = data.frame(title=character(),
 for(f in txtfiles) {
   file = file.path(PATH, 'aorsText', f)
   print(file)
-  #Read the text as a blob
+  #Read the text as a blobS
   text = readChar(file, file.info(file)$size)
   #Remove all new lines
   text = str_replace_all(text, '\n', ' ')
@@ -113,7 +127,7 @@ for(f in txtfiles) {
 ```
 Finally, our dataset is in a format that enables us to start anlaysis. We'll start by creating a corpus.
 
-**Exercise - ** Extract another data field from the .pdfs.
+**Extra-** Extract another data field from the .pdfs.
 
 ### Ingest
 To start our analysis we'll use the tm (text mining) package to format our data into a *corpus*. A corpus is just a body of documents.  In **tm** terms it's a way of structuring your data that enables you to associate meta-data to a document and it's contents.
@@ -129,6 +143,7 @@ m = list(content = 'abstract', title = 'title', org = 'org')
 reader = readTabular(mapping = m)
 corpus = Corpus(DataframeSource(df), readerControl = list(reader = reader))
 mystopwords = c('countries','org','abstracts')
+formwords = tolower(formwords())
 ```
 Now all of our documents are organized in the corpus. You can access them through indexing.  
 
@@ -141,6 +156,7 @@ corpus <- tm_map(corpus, removeNumbers)
 corpus <- tm_map(corpus, content_transformer(tolower))
 corpus <- tm_map(corpus, removeWords, stopwords("english"))
 corpus <- tm_map(corpus, removeWords, mystopwords)
+corpus <- tm_map(corpus, removeWords, formwords)
 #Stemming the corpus takes off a lot of important endings can be optional to do. I suggest you try it both ways.
 #This requires SnowballC
 #corpus <- tm_map(corpus, stemDocument)
@@ -149,15 +165,39 @@ corpus <- tm_map(corpus, stripWhitespace)
 ### Analysis
 Finally we can start looking at our data. Below are some functions to start some exploritory analysis.  This will help you get an idea for the shape of your data and will start off wi
 
+**Calc variables for plots**
+```{r}
+require('dplyr')
+require('wordcloud')
+dtm <- DocumentTermMatrix(corpus)
+tdm <- TermDocumentMatrix(corpus)
+freq <- colSums(as.matrix(dtm))
+wf <- data.frame(word=names(freq), freq=freq)
+wf <- arrange(wf,freq)
+dtmss <- removeSparseTerms(dtm, 0.80)
+```
+
+**Calc some more term matrixes weighted in different ways.**
+```{r, eval = FALSE}
+mattfidf <- weightTfIdf(dtm) 
+matnormal <- as.matrix(dtm)
+matnormal <- matnormal/rowSums(matnormal)
+disttfidf <- dist(mattfidf, method = "manhattan")
+distnorm <- dist(matnormal, method = "manhattan")
+```
+
 #make freq plot
 ```{r eval = TRUE}
 require(ggplot2)
+require(cluster)
+require(skmeans)
 makeplot <- function(freqthreshold,PATH=PATH){
   p <- ggplot(subset(wf,freq>freqthreshold), aes(x = reorder(word,freq),y = freq))
   p <- p + geom_bar(stat="identity")
   p <- p + theme(axis.text.x=element_text(angle=45, hjust = 1))
   #ggsave(filename = paste(PATH, "/freq.png", sep = ""), plot = p, width = 6, height = 6)
 }
+makeplot(100)
 ```
 
 #make word cloud
@@ -167,11 +207,12 @@ makewordcloud <- function(freqthreshold,PATH=PATH){
   cloud <- wordcloud(names(freq), freq, min.freq=freqthreshold, scale=c(5, .1), colors=brewer.pal(6, "Dark2"))   
   #dev.off()
 }
+makewordcloud(20)
 ```
 
 #make dendogram
 ```{r eval = TRUE}
-makedendo <- function(sparsity,PATH){
+makedendo <- function(sparsity,PATH=PATH){
  # png(filename = paste(PATH, "/dendo.png", sep = ""))
   dtmss <- removeSparseTerms(dtm, sparsity)
   d <- dist(t(dtmss), method="euclidian")
@@ -180,11 +221,12 @@ makedendo <- function(sparsity,PATH){
   #ggsave(filename = paste(PATH, "/dendo.png", sep = ""), plot = dendo)
  # dev.off()
 }
+makedendo(.50)
 ```
 
 #make kmeans cluster
 ```{r eval = TRUE}
-makecluster <- function(PATH){
+makecluster <- function(PATH=PATH){
  # png(filename = paste(PATH, "/cluster.png", sep=""))
   d <- dist(t(dtmss), method = "euclidian")
   kfit <- kmeans(d,16)
@@ -192,6 +234,8 @@ makecluster <- function(PATH){
   #ggsave(filename = paste(PATH, "/cluster.png", sep=""), plot = clus)
   #dev.off()
 }
+clus = makecluster()
+clus
 ```
 
 #count frequency of words per cluster 
@@ -219,32 +263,14 @@ mfrq_words_per_cluster <- function(clus, dtm, first = 10, unique = TRUE){
   names(res) <- paste0("CLUSTER_", 1:ncol(frqM))
   return(res)
 }
+
 ```
 
-**Calc variables for plots**
-```{r}
-require('dplyr')
-
-dtm <- DocumentTermMatrix(corpus)
-tdm <- TermDocumentMatrix(corpus)
-freq <- colSums(as.matrix(dtm))
-wf <- data.frame(word=names(freq), freq=freq)
-wf <- arrange(wf,freq)
-dtmss <- removeSparseTerms(dtm, 0.80)
-```
-
-**Calc some more term matrixes weighted in different ways.**
-```{r, eval = FALSE}
-mattfidf <- weightTfIdf(dtm) 
-matnormal <- as.matrix(dtm)
-matnormal <- matnormal/rowSums(matnormal)
-disttfidf <- dist(mattfidf, method = "manhattan")
-distnorm <- dist(matnormal, method = "manhattan")
-```
 
 ### Other Resources
 [DSCOE](https://dscoe.army.mil)
 [tm Documentation](https://cran.r-project.org/web/packages/tm/tm.pdf)
+[stringr Documentation](https://cran.r-project.org/web/packages/stringr/stringr.pdf)
 [Intro to tm from CRAN](ftp://cran.r-project.org/pub/R/web/packages/tm/vignettes/tm.pdf)
-[MAJ Larabee's DSCOE work](https://dscoe.army.mil) - Not a direct link, goes to DSCOE but a quick search will turn up his work.
+[MAJ Larrabee's DSCOE work](https://dscoe.army.mil) - Not a direct link, goes to DSCOE but a quick search will turn up his work.
 [Rstudio guide to text analysis](https://rstudio-pubs-static.s3.amazonaws.com/31867_8236987cf0a8444e962ccd2aec46d9c3.html)
