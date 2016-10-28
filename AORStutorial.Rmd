@@ -9,9 +9,9 @@ output: html_document
 
 **Introduction**
 
-Text analysis is more of art than a science.  
+Text analysis is a broad topic that tends to be more art than a science.  There are several methods for conducting analysis such as simple word frequency counts in documents (which produces wordclouds), topic modeling, determing clusters of similar documents, conducting automatic categorization using machine learning, and others.  Google is your friend here.  
 
-There are many general heuristic rules for choosing the number of clusters, but ultimately it comes down to the decisions an analysts makes.  
+If you're working with text eventually you'll come across regular expressions (regex).  Regex's are a language for describing patterns in text.  They're handy for filtering, sorting, parsing, and pretty much any task that involves looking for something that repeatedly occurs in a corpus.  
 
 ** Getting Started**
 Let's start by setting the directory where the abstracts are stored.  This is called the path.  If you're reading documentation and you see mentiond of 'your Linux path' this refers to something slightly different.  This instead is referencing a file that knows the indivdual paths of each program you run with one line.  For example if you type the command `rstudio` how does it know where on your computer the rstudio file is located?  Simple, it's in your path.  
@@ -266,6 +266,32 @@ mfrq_words_per_cluster <- function(clus, dtm, first = 10, unique = TRUE){
 
 ```
 
+### Number of clusters
+There are many general heuristic rules for choosing the number of clusters, but ultimately it comes down to the decisions an analysts makes. 
+```{r eval = TRUE}
+mattfidf <- weightTfIdf(dtm) 
+disttfidf <- dist(mattfidf, method = "manhattan")
+wsstfidf <- 2:30
+for (i in 2:30) wsstfidf[i] <- sum(kmeans(disttfidf, centers = i, nstart = 25)$withinss)
+plot(2:30, wsstfidf[2:30], type = "b")
+```
+
+### Build clusters
+```{r eval = TRUE}
+sphericalmeans <- skmeans(mattfidf, 10)
+sphericalmeans$cluster
+mfrq_words_per_cluster(sphericalmeans, dtm, unique = FALSE)
+mfrq_words_per_cluster(sphericalmeans, dtm, unique = TRUE)
+```
+
+### Make Dendogram
+```{r eval = TRUE}
+tfidfclust <- hclust(distnorm, "ward.D2")
+
+dendroNetwork(tfidfclust,  height = 6000, width = 2000, fontSize = 6,
+              textColour = c("brown","light blue","pink","gray","tan","red", "blue", "orange","black","green")[cutree(tfidfclust, 5)],
+              treeOrientation = "horizontal",zoom = TRUE,linkType = "elbow",nodeStroke="grey")
+```
 
 ### Other Resources
 [DSCOE](https://dscoe.army.mil)
